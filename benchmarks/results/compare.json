@@ -1,0 +1,7850 @@
+{
+ "data": "SYNTHETIC",
+ "seeds": [
+  7,
+  11,
+  23
+ ],
+ "n_orders": 400,
+ "alns_sec": 60,
+ "summary": {
+  "baseline": {
+   "plan_sec": 0.1867,
+   "event_sec_max": 0.061,
+   "initial_weighted_share": 0.5309,
+   "final_weighted_share": 0.4305,
+   "final_travel_h": 101.9667,
+   "final_cv": 0.214,
+   "final_unassigned": 221.0,
+   "reschedules": 207.3333,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "violations_algorithm": 0.0,
+   "violations_event": 11.3333
+  },
+  "basic": {
+   "plan_sec": 2.3133,
+   "event_sec_max": 0.122,
+   "initial_weighted_share": 0.6282,
+   "final_weighted_share": 0.528,
+   "final_travel_h": 66.8,
+   "final_cv": 0.1997,
+   "final_unassigned": 187.3333,
+   "reschedules": 187.3333,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "violations_algorithm": 0.0,
+   "violations_event": 13.3333
+  },
+  "full": {
+   "plan_sec": 60.5,
+   "event_sec_max": 0.084,
+   "initial_weighted_share": 0.6893,
+   "final_weighted_share": 0.5703,
+   "final_travel_h": 57.8667,
+   "final_cv": 0.1887,
+   "final_unassigned": 163.3333,
+   "reschedules": 163.3333,
+   "late_risk_timely_share": 1.0,
+   "pgp_precision": 1.0,
+   "pgp_recall": 1.0,
+   "violations_algorithm": 0.0,
+   "violations_event": 7.0
+  }
+ },
+ "runs": [
+  {
+   "plan_sec": 0.24,
+   "events": 85,
+   "event_sec_max": 0.061,
+   "event_sec_p95": 0.013,
+   "versions": 86,
+   "violations_algorithm": 0,
+   "violations_event": 9,
+   "violations_sample": [
+    [
+     78,
+     "H2 ST-007 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     79,
+     "H2 ST-007 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     80,
+     "H2 ST-007 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     81,
+     "H2 ST-007 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     82,
+     "H2 ST-007 #8: остановка вне смены",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.523,
+   "initial_travel_h": 102.8,
+   "final_success": 164,
+   "final_orders": 392,
+   "final_weighted_share": 0.422,
+   "final_unassigned": 223,
+   "final_travel_h": 97.4,
+   "final_cv": 0.225,
+   "reschedules": 210,
+   "moved_orders": 14,
+   "late_risk_timely": 0,
+   "late_risk_inevitable": 7,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 193,
+     "weighted_total": 369,
+     "unassigned": 173,
+     "travel_sec": 370032
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 31440,
+     "weighted": 193,
+     "weighted_total": 370,
+     "unassigned": 174,
+     "travel_sec": 370032
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31560,
+     "weighted": 193,
+     "weighted_total": 371,
+     "unassigned": 175,
+     "travel_sec": 370032
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31860,
+     "weighted": 193,
+     "weighted_total": 372,
+     "unassigned": 176,
+     "travel_sec": 370032
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31920,
+     "weighted": 193,
+     "weighted_total": 373,
+     "unassigned": 177,
+     "travel_sec": 370032
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31980,
+     "weighted": 193,
+     "weighted_total": 374,
+     "unassigned": 178,
+     "travel_sec": 370032
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0057",
+     "as_of": 32400,
+     "weighted": 193,
+     "weighted_total": 374,
+     "unassigned": 178,
+     "travel_sec": 370032
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0006",
+     "as_of": 32520,
+     "weighted": 193,
+     "weighted_total": 375,
+     "unassigned": 179,
+     "travel_sec": 370032
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0007",
+     "as_of": 32580,
+     "weighted": 193,
+     "weighted_total": 376,
+     "unassigned": 180,
+     "travel_sec": 370032
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32640,
+     "weighted": 193,
+     "weighted_total": 377,
+     "unassigned": 181,
+     "travel_sec": 370032
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 32760,
+     "weighted": 193,
+     "weighted_total": 378,
+     "unassigned": 182,
+     "travel_sec": 370032
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33360,
+     "weighted": 193,
+     "weighted_total": 379,
+     "unassigned": 183,
+     "travel_sec": 370032
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33480,
+     "weighted": 193,
+     "weighted_total": 380,
+     "unassigned": 184,
+     "travel_sec": 370032
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 33480,
+     "weighted": 193,
+     "weighted_total": 381,
+     "unassigned": 185,
+     "travel_sec": 370032
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0013",
+     "as_of": 33480,
+     "weighted": 193,
+     "weighted_total": 383,
+     "unassigned": 186,
+     "travel_sec": 370032
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0014",
+     "as_of": 34020,
+     "weighted": 193,
+     "weighted_total": 384,
+     "unassigned": 187,
+     "travel_sec": 370032
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0058",
+     "as_of": 34200,
+     "weighted": 193,
+     "weighted_total": 384,
+     "unassigned": 187,
+     "travel_sec": 370032
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0015",
+     "as_of": 34260,
+     "weighted": 193,
+     "weighted_total": 385,
+     "unassigned": 188,
+     "travel_sec": 370032
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0016",
+     "as_of": 35880,
+     "weighted": 193,
+     "weighted_total": 386,
+     "unassigned": 189,
+     "travel_sec": 370032
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0017",
+     "as_of": 35940,
+     "weighted": 193,
+     "weighted_total": 387,
+     "unassigned": 190,
+     "travel_sec": 370032
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0018",
+     "as_of": 36000,
+     "weighted": 193,
+     "weighted_total": 389,
+     "unassigned": 191,
+     "travel_sec": 370032
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0019",
+     "as_of": 36000,
+     "weighted": 193,
+     "weighted_total": 391,
+     "unassigned": 192,
+     "travel_sec": 370032
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0020",
+     "as_of": 36000,
+     "weighted": 193,
+     "weighted_total": 392,
+     "unassigned": 193,
+     "travel_sec": 370032
+    },
+    {
+     "version": 24,
+     "event": "EV-20261026-0059",
+     "as_of": 36000,
+     "weighted": 193,
+     "weighted_total": 392,
+     "unassigned": 193,
+     "travel_sec": 370032
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0021",
+     "as_of": 36600,
+     "weighted": 193,
+     "weighted_total": 393,
+     "unassigned": 194,
+     "travel_sec": 370032
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0022",
+     "as_of": 36600,
+     "weighted": 193,
+     "weighted_total": 394,
+     "unassigned": 195,
+     "travel_sec": 370032
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0023",
+     "as_of": 36660,
+     "weighted": 193,
+     "weighted_total": 395,
+     "unassigned": 196,
+     "travel_sec": 370032
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0024",
+     "as_of": 36840,
+     "weighted": 193,
+     "weighted_total": 396,
+     "unassigned": 197,
+     "travel_sec": 370032
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0051",
+     "as_of": 36900,
+     "weighted": 192,
+     "weighted_total": 395,
+     "unassigned": 197,
+     "travel_sec": 368822
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0054",
+     "as_of": 36900,
+     "weighted": 191,
+     "weighted_total": 394,
+     "unassigned": 197,
+     "travel_sec": 368016
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0025",
+     "as_of": 37500,
+     "weighted": 191,
+     "weighted_total": 395,
+     "unassigned": 198,
+     "travel_sec": 368016
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0026",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 396,
+     "unassigned": 199,
+     "travel_sec": 368016
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0027",
+     "as_of": 37800,
+     "weighted": 192,
+     "weighted_total": 397,
+     "unassigned": 199,
+     "travel_sec": 369374
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0028",
+     "as_of": 37800,
+     "weighted": 193,
+     "weighted_total": 398,
+     "unassigned": 199,
+     "travel_sec": 371278
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0029",
+     "as_of": 37800,
+     "weighted": 193,
+     "weighted_total": 399,
+     "unassigned": 200,
+     "travel_sec": 371278
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0060",
+     "as_of": 37800,
+     "weighted": 193,
+     "weighted_total": 399,
+     "unassigned": 200,
+     "travel_sec": 371278
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0030",
+     "as_of": 38160,
+     "weighted": 193,
+     "weighted_total": 400,
+     "unassigned": 201,
+     "travel_sec": 371278
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0031",
+     "as_of": 38280,
+     "weighted": 193,
+     "weighted_total": 401,
+     "unassigned": 202,
+     "travel_sec": 371278
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0032",
+     "as_of": 38400,
+     "weighted": 193,
+     "weighted_total": 402,
+     "unassigned": 203,
+     "travel_sec": 371278
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0033",
+     "as_of": 38580,
+     "weighted": 194,
+     "weighted_total": 403,
+     "unassigned": 203,
+     "travel_sec": 371278
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0034",
+     "as_of": 38880,
+     "weighted": 194,
+     "weighted_total": 404,
+     "unassigned": 204,
+     "travel_sec": 371278
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0061",
+     "as_of": 39600,
+     "weighted": 194,
+     "weighted_total": 404,
+     "unassigned": 204,
+     "travel_sec": 371278
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0035",
+     "as_of": 39720,
+     "weighted": 194,
+     "weighted_total": 405,
+     "unassigned": 205,
+     "travel_sec": 371278
+    },
+    {
+     "version": 44,
+     "event": "EV-TR-20261026-04",
+     "as_of": 39791,
+     "weighted": 192,
+     "weighted_total": 405,
+     "unassigned": 206,
+     "travel_sec": 371278
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0055",
+     "as_of": 40200,
+     "weighted": 185,
+     "weighted_total": 405,
+     "unassigned": 211,
+     "travel_sec": 359124
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0036",
+     "as_of": 41340,
+     "weighted": 186,
+     "weighted_total": 406,
+     "unassigned": 211,
+     "travel_sec": 359562
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0062",
+     "as_of": 41400,
+     "weighted": 186,
+     "weighted_total": 406,
+     "unassigned": 211,
+     "travel_sec": 359562
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0037",
+     "as_of": 41820,
+     "weighted": 186,
+     "weighted_total": 407,
+     "unassigned": 212,
+     "travel_sec": 359562
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0038",
+     "as_of": 42180,
+     "weighted": 186,
+     "weighted_total": 408,
+     "unassigned": 213,
+     "travel_sec": 359562
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0039",
+     "as_of": 42780,
+     "weighted": 186,
+     "weighted_total": 409,
+     "unassigned": 214,
+     "travel_sec": 359562
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0040",
+     "as_of": 42840,
+     "weighted": 186,
+     "weighted_total": 410,
+     "unassigned": 215,
+     "travel_sec": 359562
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0041",
+     "as_of": 43140,
+     "weighted": 186,
+     "weighted_total": 411,
+     "unassigned": 216,
+     "travel_sec": 359562
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0056",
+     "as_of": 43200,
+     "weighted": 183,
+     "weighted_total": 411,
+     "unassigned": 219,
+     "travel_sec": 354063
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0063",
+     "as_of": 43200,
+     "weighted": 183,
+     "weighted_total": 411,
+     "unassigned": 219,
+     "travel_sec": 354063
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0042",
+     "as_of": 43680,
+     "weighted": 183,
+     "weighted_total": 412,
+     "unassigned": 220,
+     "travel_sec": 354063
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0043",
+     "as_of": 43800,
+     "weighted": 184,
+     "weighted_total": 413,
+     "unassigned": 220,
+     "travel_sec": 355250
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0044",
+     "as_of": 43860,
+     "weighted": 185,
+     "weighted_total": 414,
+     "unassigned": 220,
+     "travel_sec": 357186
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0045",
+     "as_of": 44100,
+     "weighted": 186,
+     "weighted_total": 415,
+     "unassigned": 220,
+     "travel_sec": 357305
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0046",
+     "as_of": 44400,
+     "weighted": 186,
+     "weighted_total": 416,
+     "unassigned": 221,
+     "travel_sec": 357305
+    },
+    {
+     "version": 60,
+     "event": "EV-TR-20261026-01",
+     "as_of": 44718,
+     "weighted": 185,
+     "weighted_total": 416,
+     "unassigned": 222,
+     "travel_sec": 356492
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0064",
+     "as_of": 45000,
+     "weighted": 185,
+     "weighted_total": 416,
+     "unassigned": 222,
+     "travel_sec": 356492
+    },
+    {
+     "version": 62,
+     "event": "EV-TR-20261026-10",
+     "as_of": 46412,
+     "weighted": 184,
+     "weighted_total": 416,
+     "unassigned": 223,
+     "travel_sec": 354904
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0065",
+     "as_of": 46800,
+     "weighted": 184,
+     "weighted_total": 416,
+     "unassigned": 223,
+     "travel_sec": 354904
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0066",
+     "as_of": 48600,
+     "weighted": 184,
+     "weighted_total": 416,
+     "unassigned": 223,
+     "travel_sec": 354904
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0067",
+     "as_of": 50400,
+     "weighted": 184,
+     "weighted_total": 416,
+     "unassigned": 223,
+     "travel_sec": 354904
+    },
+    {
+     "version": 66,
+     "event": "EV-TR-20261026-05",
+     "as_of": 50603,
+     "weighted": 183,
+     "weighted_total": 416,
+     "unassigned": 224,
+     "travel_sec": 353726
+    },
+    {
+     "version": 67,
+     "event": "EV-20261026-0047",
+     "as_of": 51300,
+     "weighted": 181,
+     "weighted_total": 415,
+     "unassigned": 225,
+     "travel_sec": 351900
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0050",
+     "as_of": 51300,
+     "weighted": 180,
+     "weighted_total": 414,
+     "unassigned": 225,
+     "travel_sec": 351832
+    },
+    {
+     "version": 69,
+     "event": "EV-20261026-0068",
+     "as_of": 52200,
+     "weighted": 180,
+     "weighted_total": 414,
+     "unassigned": 225,
+     "travel_sec": 351832
+    },
+    {
+     "version": 70,
+     "event": "EV-TR-20261026-03",
+     "as_of": 53835,
+     "weighted": 179,
+     "weighted_total": 414,
+     "unassigned": 226,
+     "travel_sec": 351173
+    },
+    {
+     "version": 71,
+     "event": "EV-20261026-0069",
+     "as_of": 54000,
+     "weighted": 179,
+     "weighted_total": 414,
+     "unassigned": 226,
+     "travel_sec": 351173
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0070",
+     "as_of": 55800,
+     "weighted": 179,
+     "weighted_total": 414,
+     "unassigned": 226,
+     "travel_sec": 351173
+    },
+    {
+     "version": 73,
+     "event": "EV-20261026-0071",
+     "as_of": 57600,
+     "weighted": 179,
+     "weighted_total": 414,
+     "unassigned": 226,
+     "travel_sec": 351173
+    },
+    {
+     "version": 74,
+     "event": "EV-20261026-0048",
+     "as_of": 58500,
+     "weighted": 179,
+     "weighted_total": 413,
+     "unassigned": 225,
+     "travel_sec": 351173
+    },
+    {
+     "version": 75,
+     "event": "EV-20261026-0049",
+     "as_of": 58500,
+     "weighted": 179,
+     "weighted_total": 412,
+     "unassigned": 224,
+     "travel_sec": 351173
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0052",
+     "as_of": 58500,
+     "weighted": 178,
+     "weighted_total": 411,
+     "unassigned": 224,
+     "travel_sec": 350568
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0072",
+     "as_of": 59400,
+     "weighted": 178,
+     "weighted_total": 411,
+     "unassigned": 224,
+     "travel_sec": 350568
+    },
+    {
+     "version": 78,
+     "event": "EV-TR-20261026-08",
+     "as_of": 60680,
+     "weighted": 173,
+     "weighted_total": 411,
+     "unassigned": 224,
+     "travel_sec": 350568
+    },
+    {
+     "version": 79,
+     "event": "EV-20261026-0073",
+     "as_of": 61200,
+     "weighted": 173,
+     "weighted_total": 411,
+     "unassigned": 224,
+     "travel_sec": 350568
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0074",
+     "as_of": 63000,
+     "weighted": 173,
+     "weighted_total": 411,
+     "unassigned": 224,
+     "travel_sec": 350568
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0075",
+     "as_of": 64800,
+     "weighted": 173,
+     "weighted_total": 411,
+     "unassigned": 224,
+     "travel_sec": 350568
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0053",
+     "as_of": 65700,
+     "weighted": 173,
+     "weighted_total": 410,
+     "unassigned": 223,
+     "travel_sec": 350568
+    },
+    {
+     "version": 83,
+     "event": "EV-20261026-0076",
+     "as_of": 66600,
+     "weighted": 173,
+     "weighted_total": 410,
+     "unassigned": 223,
+     "travel_sec": 350568
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0077",
+     "as_of": 68400,
+     "weighted": 173,
+     "weighted_total": 410,
+     "unassigned": 223,
+     "travel_sec": 350568
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0078",
+     "as_of": 70200,
+     "weighted": 173,
+     "weighted_total": 410,
+     "unassigned": 223,
+     "travel_sec": 350568
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0079",
+     "as_of": 72000,
+     "weighted": 173,
+     "weighted_total": 410,
+     "unassigned": 223,
+     "travel_sec": 350568
+    }
+   ],
+   "errors": [],
+   "wall_sec": 2.1,
+   "variant": "baseline",
+   "seed": 7
+  },
+  {
+   "plan_sec": 2.23,
+   "events": 88,
+   "event_sec_max": 0.09,
+   "event_sec_p95": 0.049,
+   "versions": 89,
+   "violations_algorithm": 0,
+   "violations_event": 24,
+   "violations_sample": [
+    [
+     66,
+     "H3 ST-040: перерывов 0, нужен ровно один",
+     "event"
+    ],
+    [
+     67,
+     "H3 ST-040: перерывов 0, нужен ровно один",
+     "event"
+    ],
+    [
+     68,
+     "H3 ST-040: перерывов 0, нужен ровно один",
+     "event"
+    ],
+    [
+     69,
+     "H3 ST-040: перерывов 0, нужен ровно один",
+     "event"
+    ],
+    [
+     70,
+     "H3 ST-040: перерывов 0, нужен ровно один",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.5989,
+   "initial_travel_h": 67.4,
+   "final_success": 198,
+   "final_orders": 392,
+   "final_weighted_share": 0.5171,
+   "final_unassigned": 192,
+   "final_travel_h": 66.7,
+   "final_cv": 0.213,
+   "reschedules": 192,
+   "moved_orders": 12,
+   "late_risk_timely": 0,
+   "late_risk_inevitable": 4,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 221,
+     "weighted_total": 369,
+     "unassigned": 148,
+     "travel_sec": 242631
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 31440,
+     "weighted": 221,
+     "weighted_total": 370,
+     "unassigned": 149,
+     "travel_sec": 242631
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31560,
+     "weighted": 221,
+     "weighted_total": 371,
+     "unassigned": 150,
+     "travel_sec": 242631
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31860,
+     "weighted": 221,
+     "weighted_total": 372,
+     "unassigned": 151,
+     "travel_sec": 242631
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31920,
+     "weighted": 221,
+     "weighted_total": 373,
+     "unassigned": 152,
+     "travel_sec": 242631
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31980,
+     "weighted": 221,
+     "weighted_total": 374,
+     "unassigned": 153,
+     "travel_sec": 242631
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0057",
+     "as_of": 32400,
+     "weighted": 221,
+     "weighted_total": 374,
+     "unassigned": 153,
+     "travel_sec": 242631
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0006",
+     "as_of": 32520,
+     "weighted": 221,
+     "weighted_total": 375,
+     "unassigned": 154,
+     "travel_sec": 242631
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0007",
+     "as_of": 32580,
+     "weighted": 221,
+     "weighted_total": 376,
+     "unassigned": 155,
+     "travel_sec": 242631
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32640,
+     "weighted": 221,
+     "weighted_total": 377,
+     "unassigned": 156,
+     "travel_sec": 242631
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 32760,
+     "weighted": 221,
+     "weighted_total": 378,
+     "unassigned": 157,
+     "travel_sec": 242631
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33360,
+     "weighted": 221,
+     "weighted_total": 379,
+     "unassigned": 158,
+     "travel_sec": 242631
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33480,
+     "weighted": 221,
+     "weighted_total": 380,
+     "unassigned": 159,
+     "travel_sec": 242631
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 33480,
+     "weighted": 221,
+     "weighted_total": 381,
+     "unassigned": 160,
+     "travel_sec": 242631
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0013",
+     "as_of": 33480,
+     "weighted": 221,
+     "weighted_total": 383,
+     "unassigned": 161,
+     "travel_sec": 242631
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0014",
+     "as_of": 34020,
+     "weighted": 221,
+     "weighted_total": 384,
+     "unassigned": 162,
+     "travel_sec": 242631
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0058",
+     "as_of": 34200,
+     "weighted": 221,
+     "weighted_total": 384,
+     "unassigned": 162,
+     "travel_sec": 242631
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0015",
+     "as_of": 34260,
+     "weighted": 222,
+     "weighted_total": 385,
+     "unassigned": 162,
+     "travel_sec": 245104
+    },
+    {
+     "version": 19,
+     "event": "EV-TR-20261026-09",
+     "as_of": 34508,
+     "weighted": 222,
+     "weighted_total": 385,
+     "unassigned": 162,
+     "travel_sec": 245104
+    },
+    {
+     "version": 20,
+     "event": "EV-TR-20261026-11",
+     "as_of": 34639,
+     "weighted": 223,
+     "weighted_total": 385,
+     "unassigned": 161,
+     "travel_sec": 245870
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0016",
+     "as_of": 35880,
+     "weighted": 223,
+     "weighted_total": 386,
+     "unassigned": 162,
+     "travel_sec": 245870
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0017",
+     "as_of": 35940,
+     "weighted": 223,
+     "weighted_total": 387,
+     "unassigned": 163,
+     "travel_sec": 245870
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0018",
+     "as_of": 36000,
+     "weighted": 223,
+     "weighted_total": 389,
+     "unassigned": 164,
+     "travel_sec": 245870
+    },
+    {
+     "version": 24,
+     "event": "EV-20261026-0019",
+     "as_of": 36000,
+     "weighted": 223,
+     "weighted_total": 391,
+     "unassigned": 165,
+     "travel_sec": 245870
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0020",
+     "as_of": 36000,
+     "weighted": 223,
+     "weighted_total": 392,
+     "unassigned": 166,
+     "travel_sec": 245870
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0059",
+     "as_of": 36000,
+     "weighted": 223,
+     "weighted_total": 392,
+     "unassigned": 166,
+     "travel_sec": 245870
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0021",
+     "as_of": 36600,
+     "weighted": 223,
+     "weighted_total": 393,
+     "unassigned": 167,
+     "travel_sec": 245870
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0022",
+     "as_of": 36600,
+     "weighted": 223,
+     "weighted_total": 394,
+     "unassigned": 168,
+     "travel_sec": 245870
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0023",
+     "as_of": 36660,
+     "weighted": 224,
+     "weighted_total": 395,
+     "unassigned": 168,
+     "travel_sec": 246006
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0024",
+     "as_of": 36840,
+     "weighted": 224,
+     "weighted_total": 396,
+     "unassigned": 169,
+     "travel_sec": 246006
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0051",
+     "as_of": 36900,
+     "weighted": 224,
+     "weighted_total": 395,
+     "unassigned": 168,
+     "travel_sec": 246006
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0054",
+     "as_of": 36900,
+     "weighted": 224,
+     "weighted_total": 394,
+     "unassigned": 167,
+     "travel_sec": 245830
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0025",
+     "as_of": 37500,
+     "weighted": 224,
+     "weighted_total": 395,
+     "unassigned": 168,
+     "travel_sec": 245830
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0026",
+     "as_of": 37800,
+     "weighted": 224,
+     "weighted_total": 396,
+     "unassigned": 169,
+     "travel_sec": 245830
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0027",
+     "as_of": 37800,
+     "weighted": 224,
+     "weighted_total": 397,
+     "unassigned": 170,
+     "travel_sec": 245830
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0028",
+     "as_of": 37800,
+     "weighted": 224,
+     "weighted_total": 398,
+     "unassigned": 171,
+     "travel_sec": 245830
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0029",
+     "as_of": 37800,
+     "weighted": 225,
+     "weighted_total": 399,
+     "unassigned": 171,
+     "travel_sec": 246148
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0060",
+     "as_of": 37800,
+     "weighted": 225,
+     "weighted_total": 399,
+     "unassigned": 171,
+     "travel_sec": 246148
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0030",
+     "as_of": 38160,
+     "weighted": 225,
+     "weighted_total": 400,
+     "unassigned": 172,
+     "travel_sec": 246148
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0031",
+     "as_of": 38280,
+     "weighted": 225,
+     "weighted_total": 401,
+     "unassigned": 173,
+     "travel_sec": 246148
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0032",
+     "as_of": 38400,
+     "weighted": 225,
+     "weighted_total": 402,
+     "unassigned": 174,
+     "travel_sec": 246148
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0033",
+     "as_of": 38580,
+     "weighted": 225,
+     "weighted_total": 403,
+     "unassigned": 175,
+     "travel_sec": 246148
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0034",
+     "as_of": 38880,
+     "weighted": 225,
+     "weighted_total": 404,
+     "unassigned": 176,
+     "travel_sec": 246148
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0061",
+     "as_of": 39600,
+     "weighted": 225,
+     "weighted_total": 404,
+     "unassigned": 176,
+     "travel_sec": 246148
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0035",
+     "as_of": 39720,
+     "weighted": 225,
+     "weighted_total": 405,
+     "unassigned": 177,
+     "travel_sec": 246148
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0055",
+     "as_of": 40200,
+     "weighted": 216,
+     "weighted_total": 405,
+     "unassigned": 184,
+     "travel_sec": 240000
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0036",
+     "as_of": 41340,
+     "weighted": 217,
+     "weighted_total": 406,
+     "unassigned": 184,
+     "travel_sec": 240340
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0062",
+     "as_of": 41400,
+     "weighted": 217,
+     "weighted_total": 406,
+     "unassigned": 184,
+     "travel_sec": 240340
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0037",
+     "as_of": 41820,
+     "weighted": 217,
+     "weighted_total": 407,
+     "unassigned": 185,
+     "travel_sec": 240340
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0038",
+     "as_of": 42180,
+     "weighted": 217,
+     "weighted_total": 408,
+     "unassigned": 186,
+     "travel_sec": 240340
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0039",
+     "as_of": 42780,
+     "weighted": 217,
+     "weighted_total": 409,
+     "unassigned": 187,
+     "travel_sec": 240340
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0040",
+     "as_of": 42840,
+     "weighted": 217,
+     "weighted_total": 410,
+     "unassigned": 188,
+     "travel_sec": 240340
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0041",
+     "as_of": 43140,
+     "weighted": 217,
+     "weighted_total": 411,
+     "unassigned": 189,
+     "travel_sec": 240340
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0056",
+     "as_of": 43200,
+     "weighted": 217,
+     "weighted_total": 411,
+     "unassigned": 189,
+     "travel_sec": 240282
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0063",
+     "as_of": 43200,
+     "weighted": 217,
+     "weighted_total": 411,
+     "unassigned": 189,
+     "travel_sec": 240282
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0042",
+     "as_of": 43680,
+     "weighted": 217,
+     "weighted_total": 412,
+     "unassigned": 190,
+     "travel_sec": 240282
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0043",
+     "as_of": 43800,
+     "weighted": 217,
+     "weighted_total": 413,
+     "unassigned": 191,
+     "travel_sec": 240282
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0044",
+     "as_of": 43860,
+     "weighted": 218,
+     "weighted_total": 414,
+     "unassigned": 191,
+     "travel_sec": 240682
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0045",
+     "as_of": 44100,
+     "weighted": 218,
+     "weighted_total": 415,
+     "unassigned": 192,
+     "travel_sec": 240682
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0046",
+     "as_of": 44400,
+     "weighted": 218,
+     "weighted_total": 416,
+     "unassigned": 193,
+     "travel_sec": 240682
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0064",
+     "as_of": 45000,
+     "weighted": 218,
+     "weighted_total": 416,
+     "unassigned": 193,
+     "travel_sec": 240682
+    },
+    {
+     "version": 62,
+     "event": "EV-TR-20261026-01",
+     "as_of": 46698,
+     "weighted": 217,
+     "weighted_total": 416,
+     "unassigned": 194,
+     "travel_sec": 239673
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0065",
+     "as_of": 46800,
+     "weighted": 217,
+     "weighted_total": 416,
+     "unassigned": 194,
+     "travel_sec": 239673
+    },
+    {
+     "version": 64,
+     "event": "EV-TR-20261026-03",
+     "as_of": 48600,
+     "weighted": 216,
+     "weighted_total": 416,
+     "unassigned": 195,
+     "travel_sec": 238611
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0066",
+     "as_of": 48600,
+     "weighted": 216,
+     "weighted_total": 416,
+     "unassigned": 195,
+     "travel_sec": 238611
+    },
+    {
+     "version": 66,
+     "event": "EV-TR-20261026-02",
+     "as_of": 49141,
+     "weighted": 214,
+     "weighted_total": 416,
+     "unassigned": 195,
+     "travel_sec": 238611
+    },
+    {
+     "version": 67,
+     "event": "EV-TR-20261026-05",
+     "as_of": 50220,
+     "weighted": 213,
+     "weighted_total": 416,
+     "unassigned": 196,
+     "travel_sec": 238352
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0067",
+     "as_of": 50400,
+     "weighted": 213,
+     "weighted_total": 416,
+     "unassigned": 196,
+     "travel_sec": 238352
+    },
+    {
+     "version": 69,
+     "event": "EV-20261026-0047",
+     "as_of": 51300,
+     "weighted": 213,
+     "weighted_total": 415,
+     "unassigned": 195,
+     "travel_sec": 238551
+    },
+    {
+     "version": 70,
+     "event": "EV-20261026-0050",
+     "as_of": 51300,
+     "weighted": 214,
+     "weighted_total": 414,
+     "unassigned": 194,
+     "travel_sec": 239386
+    },
+    {
+     "version": 71,
+     "event": "EV-20261026-0068",
+     "as_of": 52200,
+     "weighted": 214,
+     "weighted_total": 414,
+     "unassigned": 194,
+     "travel_sec": 239386
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0069",
+     "as_of": 54000,
+     "weighted": 214,
+     "weighted_total": 414,
+     "unassigned": 194,
+     "travel_sec": 239386
+    },
+    {
+     "version": 73,
+     "event": "EV-TR-20261026-07",
+     "as_of": 55800,
+     "weighted": 214,
+     "weighted_total": 414,
+     "unassigned": 194,
+     "travel_sec": 239386
+    },
+    {
+     "version": 74,
+     "event": "EV-TR-20261026-08",
+     "as_of": 55800,
+     "weighted": 213,
+     "weighted_total": 414,
+     "unassigned": 195,
+     "travel_sec": 239294
+    },
+    {
+     "version": 75,
+     "event": "EV-20261026-0070",
+     "as_of": 55800,
+     "weighted": 213,
+     "weighted_total": 414,
+     "unassigned": 195,
+     "travel_sec": 239294
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0071",
+     "as_of": 57600,
+     "weighted": 213,
+     "weighted_total": 414,
+     "unassigned": 195,
+     "travel_sec": 239294
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0048",
+     "as_of": 58500,
+     "weighted": 212,
+     "weighted_total": 413,
+     "unassigned": 195,
+     "travel_sec": 239015
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0049",
+     "as_of": 58500,
+     "weighted": 212,
+     "weighted_total": 412,
+     "unassigned": 194,
+     "travel_sec": 239015
+    },
+    {
+     "version": 79,
+     "event": "EV-20261026-0052",
+     "as_of": 58500,
+     "weighted": 211,
+     "weighted_total": 411,
+     "unassigned": 194,
+     "travel_sec": 238761
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0072",
+     "as_of": 59400,
+     "weighted": 211,
+     "weighted_total": 411,
+     "unassigned": 194,
+     "travel_sec": 238761
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0073",
+     "as_of": 61200,
+     "weighted": 211,
+     "weighted_total": 411,
+     "unassigned": 194,
+     "travel_sec": 238761
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0074",
+     "as_of": 63000,
+     "weighted": 211,
+     "weighted_total": 411,
+     "unassigned": 194,
+     "travel_sec": 238761
+    },
+    {
+     "version": 83,
+     "event": "EV-20261026-0075",
+     "as_of": 64800,
+     "weighted": 211,
+     "weighted_total": 411,
+     "unassigned": 194,
+     "travel_sec": 238761
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0053",
+     "as_of": 65700,
+     "weighted": 211,
+     "weighted_total": 410,
+     "unassigned": 193,
+     "travel_sec": 238761
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0076",
+     "as_of": 66600,
+     "weighted": 211,
+     "weighted_total": 410,
+     "unassigned": 193,
+     "travel_sec": 238761
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0077",
+     "as_of": 68400,
+     "weighted": 211,
+     "weighted_total": 410,
+     "unassigned": 193,
+     "travel_sec": 238761
+    },
+    {
+     "version": 87,
+     "event": "EV-TR-20261026-13",
+     "as_of": 69624,
+     "weighted": 212,
+     "weighted_total": 410,
+     "unassigned": 192,
+     "travel_sec": 240244
+    },
+    {
+     "version": 88,
+     "event": "EV-20261026-0078",
+     "as_of": 70200,
+     "weighted": 212,
+     "weighted_total": 410,
+     "unassigned": 192,
+     "travel_sec": 240244
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0079",
+     "as_of": 72000,
+     "weighted": 212,
+     "weighted_total": 410,
+     "unassigned": 192,
+     "travel_sec": 240244
+    }
+   ],
+   "errors": [],
+   "wall_sec": 4.5,
+   "variant": "basic",
+   "seed": 7
+  },
+  {
+   "plan_sec": 56.65,
+   "events": 88,
+   "event_sec_max": 0.078,
+   "event_sec_p95": 0.046,
+   "versions": 89,
+   "violations_algorithm": 0,
+   "violations_event": 4,
+   "violations_sample": [
+    [
+     88,
+     "H2 ST-015/ORD-20261026-0339 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     88,
+     "H2 ST-015 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     89,
+     "H2 ST-015/ORD-20261026-0339 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     89,
+     "H2 ST-015 #9: остановка вне смены",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.6612,
+   "initial_travel_h": 56.2,
+   "final_success": 208,
+   "final_orders": 386,
+   "final_weighted_share": 0.5495,
+   "final_unassigned": 172,
+   "final_travel_h": 56.1,
+   "final_cv": 0.216,
+   "reschedules": 172,
+   "moved_orders": 13,
+   "late_risk_timely": 8,
+   "late_risk_inevitable": 5,
+   "late_risk_timely_share": 1.0,
+   "pgp_precision": 1.0,
+   "pgp_recall": 1.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 242,
+     "weighted_total": 366,
+     "unassigned": 124,
+     "travel_sec": 202472
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 31440,
+     "weighted": 242,
+     "weighted_total": 367,
+     "unassigned": 125,
+     "travel_sec": 202472
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31560,
+     "weighted": 242,
+     "weighted_total": 368,
+     "unassigned": 126,
+     "travel_sec": 202472
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31860,
+     "weighted": 242,
+     "weighted_total": 369,
+     "unassigned": 127,
+     "travel_sec": 202472
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31920,
+     "weighted": 242,
+     "weighted_total": 370,
+     "unassigned": 128,
+     "travel_sec": 202472
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31980,
+     "weighted": 242,
+     "weighted_total": 371,
+     "unassigned": 129,
+     "travel_sec": 202472
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0057",
+     "as_of": 32400,
+     "weighted": 242,
+     "weighted_total": 371,
+     "unassigned": 129,
+     "travel_sec": 202472
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0006",
+     "as_of": 32520,
+     "weighted": 242,
+     "weighted_total": 372,
+     "unassigned": 130,
+     "travel_sec": 202472
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0007",
+     "as_of": 32580,
+     "weighted": 243,
+     "weighted_total": 373,
+     "unassigned": 130,
+     "travel_sec": 202661
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32640,
+     "weighted": 243,
+     "weighted_total": 374,
+     "unassigned": 131,
+     "travel_sec": 202661
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 32760,
+     "weighted": 243,
+     "weighted_total": 375,
+     "unassigned": 132,
+     "travel_sec": 202661
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33360,
+     "weighted": 243,
+     "weighted_total": 376,
+     "unassigned": 133,
+     "travel_sec": 202661
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33480,
+     "weighted": 243,
+     "weighted_total": 377,
+     "unassigned": 134,
+     "travel_sec": 202661
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 33480,
+     "weighted": 243,
+     "weighted_total": 378,
+     "unassigned": 135,
+     "travel_sec": 202661
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0013",
+     "as_of": 33480,
+     "weighted": 243,
+     "weighted_total": 380,
+     "unassigned": 136,
+     "travel_sec": 202661
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0014",
+     "as_of": 34020,
+     "weighted": 243,
+     "weighted_total": 381,
+     "unassigned": 137,
+     "travel_sec": 202661
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0058",
+     "as_of": 34200,
+     "weighted": 243,
+     "weighted_total": 381,
+     "unassigned": 137,
+     "travel_sec": 202661
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0015",
+     "as_of": 34260,
+     "weighted": 243,
+     "weighted_total": 382,
+     "unassigned": 138,
+     "travel_sec": 202661
+    },
+    {
+     "version": 19,
+     "event": "EV-TR-20261026-09",
+     "as_of": 34508,
+     "weighted": 243,
+     "weighted_total": 382,
+     "unassigned": 138,
+     "travel_sec": 202661
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0016",
+     "as_of": 35880,
+     "weighted": 243,
+     "weighted_total": 383,
+     "unassigned": 139,
+     "travel_sec": 202661
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0017",
+     "as_of": 35940,
+     "weighted": 243,
+     "weighted_total": 384,
+     "unassigned": 140,
+     "travel_sec": 202661
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0018",
+     "as_of": 36000,
+     "weighted": 243,
+     "weighted_total": 386,
+     "unassigned": 141,
+     "travel_sec": 202661
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0019",
+     "as_of": 36000,
+     "weighted": 243,
+     "weighted_total": 388,
+     "unassigned": 142,
+     "travel_sec": 202661
+    },
+    {
+     "version": 24,
+     "event": "EV-20261026-0020",
+     "as_of": 36000,
+     "weighted": 243,
+     "weighted_total": 389,
+     "unassigned": 143,
+     "travel_sec": 202661
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0059",
+     "as_of": 36000,
+     "weighted": 243,
+     "weighted_total": 389,
+     "unassigned": 143,
+     "travel_sec": 202661
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0021",
+     "as_of": 36600,
+     "weighted": 243,
+     "weighted_total": 390,
+     "unassigned": 144,
+     "travel_sec": 202661
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0022",
+     "as_of": 36600,
+     "weighted": 243,
+     "weighted_total": 391,
+     "unassigned": 145,
+     "travel_sec": 202661
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0023",
+     "as_of": 36660,
+     "weighted": 243,
+     "weighted_total": 392,
+     "unassigned": 146,
+     "travel_sec": 202661
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0024",
+     "as_of": 36840,
+     "weighted": 243,
+     "weighted_total": 393,
+     "unassigned": 147,
+     "travel_sec": 202661
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0051",
+     "as_of": 36900,
+     "weighted": 242,
+     "weighted_total": 392,
+     "unassigned": 147,
+     "travel_sec": 202281
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0054",
+     "as_of": 36900,
+     "weighted": 242,
+     "weighted_total": 391,
+     "unassigned": 146,
+     "travel_sec": 203965
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0025",
+     "as_of": 37500,
+     "weighted": 242,
+     "weighted_total": 392,
+     "unassigned": 147,
+     "travel_sec": 203965
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0026",
+     "as_of": 37800,
+     "weighted": 243,
+     "weighted_total": 393,
+     "unassigned": 147,
+     "travel_sec": 205433
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0027",
+     "as_of": 37800,
+     "weighted": 243,
+     "weighted_total": 394,
+     "unassigned": 148,
+     "travel_sec": 205433
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0028",
+     "as_of": 37800,
+     "weighted": 243,
+     "weighted_total": 395,
+     "unassigned": 149,
+     "travel_sec": 205433
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0029",
+     "as_of": 37800,
+     "weighted": 243,
+     "weighted_total": 396,
+     "unassigned": 150,
+     "travel_sec": 205433
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0060",
+     "as_of": 37800,
+     "weighted": 243,
+     "weighted_total": 396,
+     "unassigned": 150,
+     "travel_sec": 205433
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0030",
+     "as_of": 38160,
+     "weighted": 243,
+     "weighted_total": 397,
+     "unassigned": 151,
+     "travel_sec": 205433
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0031",
+     "as_of": 38280,
+     "weighted": 243,
+     "weighted_total": 398,
+     "unassigned": 152,
+     "travel_sec": 205433
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0032",
+     "as_of": 38400,
+     "weighted": 243,
+     "weighted_total": 396,
+     "unassigned": 150,
+     "travel_sec": 205433
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0033",
+     "as_of": 38580,
+     "weighted": 243,
+     "weighted_total": 397,
+     "unassigned": 151,
+     "travel_sec": 205433
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0034",
+     "as_of": 38880,
+     "weighted": 243,
+     "weighted_total": 398,
+     "unassigned": 152,
+     "travel_sec": 205433
+    },
+    {
+     "version": 43,
+     "event": "EV-TR-20261026-11",
+     "as_of": 39032,
+     "weighted": 243,
+     "weighted_total": 398,
+     "unassigned": 152,
+     "travel_sec": 205433
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0061",
+     "as_of": 39600,
+     "weighted": 243,
+     "weighted_total": 398,
+     "unassigned": 152,
+     "travel_sec": 205433
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0035",
+     "as_of": 39720,
+     "weighted": 243,
+     "weighted_total": 399,
+     "unassigned": 153,
+     "travel_sec": 205433
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0055",
+     "as_of": 40200,
+     "weighted": 235,
+     "weighted_total": 399,
+     "unassigned": 160,
+     "travel_sec": 202175
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0036",
+     "as_of": 41340,
+     "weighted": 236,
+     "weighted_total": 400,
+     "unassigned": 160,
+     "travel_sec": 203495
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0062",
+     "as_of": 41400,
+     "weighted": 236,
+     "weighted_total": 400,
+     "unassigned": 160,
+     "travel_sec": 203495
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0037",
+     "as_of": 41820,
+     "weighted": 236,
+     "weighted_total": 401,
+     "unassigned": 161,
+     "travel_sec": 203495
+    },
+    {
+     "version": 50,
+     "event": "EV-TR-20261026-01",
+     "as_of": 41869,
+     "weighted": 235,
+     "weighted_total": 401,
+     "unassigned": 162,
+     "travel_sec": 203409
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0038",
+     "as_of": 42180,
+     "weighted": 235,
+     "weighted_total": 402,
+     "unassigned": 163,
+     "travel_sec": 203409
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0039",
+     "as_of": 42780,
+     "weighted": 235,
+     "weighted_total": 403,
+     "unassigned": 164,
+     "travel_sec": 203409
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0040",
+     "as_of": 42840,
+     "weighted": 235,
+     "weighted_total": 404,
+     "unassigned": 165,
+     "travel_sec": 203409
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0041",
+     "as_of": 43140,
+     "weighted": 235,
+     "weighted_total": 405,
+     "unassigned": 166,
+     "travel_sec": 203409
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0056",
+     "as_of": 43200,
+     "weighted": 234,
+     "weighted_total": 405,
+     "unassigned": 167,
+     "travel_sec": 203200
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0063",
+     "as_of": 43200,
+     "weighted": 234,
+     "weighted_total": 405,
+     "unassigned": 167,
+     "travel_sec": 203200
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0042",
+     "as_of": 43680,
+     "weighted": 234,
+     "weighted_total": 406,
+     "unassigned": 168,
+     "travel_sec": 203200
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0043",
+     "as_of": 43800,
+     "weighted": 234,
+     "weighted_total": 407,
+     "unassigned": 169,
+     "travel_sec": 203200
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0044",
+     "as_of": 43860,
+     "weighted": 234,
+     "weighted_total": 408,
+     "unassigned": 170,
+     "travel_sec": 203200
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0045",
+     "as_of": 44100,
+     "weighted": 234,
+     "weighted_total": 409,
+     "unassigned": 171,
+     "travel_sec": 203200
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0046",
+     "as_of": 44400,
+     "weighted": 234,
+     "weighted_total": 410,
+     "unassigned": 172,
+     "travel_sec": 203200
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0064",
+     "as_of": 45000,
+     "weighted": 234,
+     "weighted_total": 410,
+     "unassigned": 172,
+     "travel_sec": 203200
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0065",
+     "as_of": 46800,
+     "weighted": 234,
+     "weighted_total": 410,
+     "unassigned": 172,
+     "travel_sec": 203200
+    },
+    {
+     "version": 64,
+     "event": "EV-TR-20261026-02",
+     "as_of": 48600,
+     "weighted": 233,
+     "weighted_total": 410,
+     "unassigned": 173,
+     "travel_sec": 202880
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0066",
+     "as_of": 48600,
+     "weighted": 233,
+     "weighted_total": 410,
+     "unassigned": 173,
+     "travel_sec": 202880
+    },
+    {
+     "version": 66,
+     "event": "EV-TR-20261026-05",
+     "as_of": 50220,
+     "weighted": 232,
+     "weighted_total": 410,
+     "unassigned": 174,
+     "travel_sec": 202773
+    },
+    {
+     "version": 67,
+     "event": "EV-20261026-0067",
+     "as_of": 50400,
+     "weighted": 232,
+     "weighted_total": 410,
+     "unassigned": 174,
+     "travel_sec": 202773
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0047",
+     "as_of": 51300,
+     "weighted": 232,
+     "weighted_total": 409,
+     "unassigned": 173,
+     "travel_sec": 203083
+    },
+    {
+     "version": 69,
+     "event": "EV-20261026-0050",
+     "as_of": 51300,
+     "weighted": 232,
+     "weighted_total": 408,
+     "unassigned": 172,
+     "travel_sec": 203127
+    },
+    {
+     "version": 70,
+     "event": "EV-20261026-0068",
+     "as_of": 52200,
+     "weighted": 232,
+     "weighted_total": 408,
+     "unassigned": 172,
+     "travel_sec": 203127
+    },
+    {
+     "version": 71,
+     "event": "EV-TR-20261026-03",
+     "as_of": 53206,
+     "weighted": 231,
+     "weighted_total": 408,
+     "unassigned": 173,
+     "travel_sec": 202951
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0069",
+     "as_of": 54000,
+     "weighted": 231,
+     "weighted_total": 408,
+     "unassigned": 173,
+     "travel_sec": 202951
+    },
+    {
+     "version": 73,
+     "event": "EV-TR-20261026-07",
+     "as_of": 55800,
+     "weighted": 231,
+     "weighted_total": 408,
+     "unassigned": 173,
+     "travel_sec": 202951
+    },
+    {
+     "version": 74,
+     "event": "EV-20261026-0070",
+     "as_of": 55800,
+     "weighted": 231,
+     "weighted_total": 408,
+     "unassigned": 173,
+     "travel_sec": 202951
+    },
+    {
+     "version": 75,
+     "event": "EV-TR-20261026-08",
+     "as_of": 55845,
+     "weighted": 230,
+     "weighted_total": 408,
+     "unassigned": 174,
+     "travel_sec": 202652
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0071",
+     "as_of": 57600,
+     "weighted": 230,
+     "weighted_total": 408,
+     "unassigned": 174,
+     "travel_sec": 202652
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0048",
+     "as_of": 58500,
+     "weighted": 229,
+     "weighted_total": 407,
+     "unassigned": 174,
+     "travel_sec": 202085
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0049",
+     "as_of": 58500,
+     "weighted": 229,
+     "weighted_total": 406,
+     "unassigned": 173,
+     "travel_sec": 201975
+    },
+    {
+     "version": 79,
+     "event": "EV-20261026-0052",
+     "as_of": 58500,
+     "weighted": 228,
+     "weighted_total": 405,
+     "unassigned": 173,
+     "travel_sec": 201799
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0072",
+     "as_of": 59400,
+     "weighted": 228,
+     "weighted_total": 405,
+     "unassigned": 173,
+     "travel_sec": 201799
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0073",
+     "as_of": 61200,
+     "weighted": 228,
+     "weighted_total": 405,
+     "unassigned": 173,
+     "travel_sec": 201799
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0074",
+     "as_of": 63000,
+     "weighted": 228,
+     "weighted_total": 405,
+     "unassigned": 173,
+     "travel_sec": 201799
+    },
+    {
+     "version": 83,
+     "event": "EV-20261026-0075",
+     "as_of": 64800,
+     "weighted": 228,
+     "weighted_total": 405,
+     "unassigned": 173,
+     "travel_sec": 201799
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0053",
+     "as_of": 65700,
+     "weighted": 228,
+     "weighted_total": 404,
+     "unassigned": 172,
+     "travel_sec": 201799
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0076",
+     "as_of": 66600,
+     "weighted": 228,
+     "weighted_total": 404,
+     "unassigned": 172,
+     "travel_sec": 201799
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0077",
+     "as_of": 68400,
+     "weighted": 228,
+     "weighted_total": 404,
+     "unassigned": 172,
+     "travel_sec": 201799
+    },
+    {
+     "version": 87,
+     "event": "EV-20261026-0078",
+     "as_of": 70200,
+     "weighted": 228,
+     "weighted_total": 404,
+     "unassigned": 172,
+     "travel_sec": 201799
+    },
+    {
+     "version": 88,
+     "event": "EV-TR-20261026-06",
+     "as_of": 71675,
+     "weighted": 222,
+     "weighted_total": 404,
+     "unassigned": 172,
+     "travel_sec": 201799
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0079",
+     "as_of": 72000,
+     "weighted": 222,
+     "weighted_total": 404,
+     "unassigned": 172,
+     "travel_sec": 201799
+    }
+   ],
+   "errors": [],
+   "wall_sec": 59.2,
+   "variant": "full",
+   "seed": 7
+  },
+  {
+   "plan_sec": 0.17,
+   "events": 93,
+   "event_sec_max": 0.02,
+   "event_sec_p95": 0.01,
+   "versions": 94,
+   "violations_algorithm": 0,
+   "violations_event": 0,
+   "violations_sample": [],
+   "initial_weighted_share": 0.542,
+   "initial_travel_h": 104.5,
+   "final_success": 174,
+   "final_orders": 395,
+   "final_weighted_share": 0.4431,
+   "final_unassigned": 221,
+   "final_travel_h": 99.7,
+   "final_cv": 0.211,
+   "reschedules": 205,
+   "moved_orders": 16,
+   "late_risk_timely": 0,
+   "late_risk_inevitable": 7,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 200,
+     "weighted_total": 369,
+     "unassigned": 161,
+     "travel_sec": 376085
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 30960,
+     "weighted": 200,
+     "weighted_total": 370,
+     "unassigned": 162,
+     "travel_sec": 376085
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31080,
+     "weighted": 200,
+     "weighted_total": 371,
+     "unassigned": 163,
+     "travel_sec": 376085
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31320,
+     "weighted": 200,
+     "weighted_total": 372,
+     "unassigned": 164,
+     "travel_sec": 376085
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31920,
+     "weighted": 200,
+     "weighted_total": 373,
+     "unassigned": 165,
+     "travel_sec": 376085
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31920,
+     "weighted": 200,
+     "weighted_total": 374,
+     "unassigned": 166,
+     "travel_sec": 376085
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0006",
+     "as_of": 31980,
+     "weighted": 200,
+     "weighted_total": 375,
+     "unassigned": 167,
+     "travel_sec": 376085
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0007",
+     "as_of": 32160,
+     "weighted": 200,
+     "weighted_total": 376,
+     "unassigned": 168,
+     "travel_sec": 376085
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0061",
+     "as_of": 32400,
+     "weighted": 200,
+     "weighted_total": 376,
+     "unassigned": 168,
+     "travel_sec": 376085
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32640,
+     "weighted": 200,
+     "weighted_total": 377,
+     "unassigned": 169,
+     "travel_sec": 376085
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 33060,
+     "weighted": 200,
+     "weighted_total": 378,
+     "unassigned": 170,
+     "travel_sec": 376085
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33180,
+     "weighted": 200,
+     "weighted_total": 379,
+     "unassigned": 171,
+     "travel_sec": 376085
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33240,
+     "weighted": 200,
+     "weighted_total": 380,
+     "unassigned": 172,
+     "travel_sec": 376085
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 33300,
+     "weighted": 200,
+     "weighted_total": 381,
+     "unassigned": 173,
+     "travel_sec": 376085
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0013",
+     "as_of": 33420,
+     "weighted": 200,
+     "weighted_total": 382,
+     "unassigned": 174,
+     "travel_sec": 376085
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0014",
+     "as_of": 33540,
+     "weighted": 200,
+     "weighted_total": 383,
+     "unassigned": 175,
+     "travel_sec": 376085
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0015",
+     "as_of": 33840,
+     "weighted": 200,
+     "weighted_total": 384,
+     "unassigned": 176,
+     "travel_sec": 376085
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0016",
+     "as_of": 33900,
+     "weighted": 200,
+     "weighted_total": 385,
+     "unassigned": 177,
+     "travel_sec": 376085
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0017",
+     "as_of": 33900,
+     "weighted": 200,
+     "weighted_total": 386,
+     "unassigned": 178,
+     "travel_sec": 376085
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0018",
+     "as_of": 34140,
+     "weighted": 200,
+     "weighted_total": 387,
+     "unassigned": 179,
+     "travel_sec": 376085
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0062",
+     "as_of": 34200,
+     "weighted": 200,
+     "weighted_total": 387,
+     "unassigned": 179,
+     "travel_sec": 376085
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0019",
+     "as_of": 34260,
+     "weighted": 200,
+     "weighted_total": 388,
+     "unassigned": 180,
+     "travel_sec": 376085
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0020",
+     "as_of": 34500,
+     "weighted": 200,
+     "weighted_total": 389,
+     "unassigned": 181,
+     "travel_sec": 376085
+    },
+    {
+     "version": 24,
+     "event": "EV-TR-20261026-06",
+     "as_of": 34763,
+     "weighted": 199,
+     "weighted_total": 389,
+     "unassigned": 182,
+     "travel_sec": 373286
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0021",
+     "as_of": 35160,
+     "weighted": 199,
+     "weighted_total": 390,
+     "unassigned": 183,
+     "travel_sec": 373286
+    },
+    {
+     "version": 26,
+     "event": "EV-TR-20261026-07",
+     "as_of": 35589,
+     "weighted": 198,
+     "weighted_total": 390,
+     "unassigned": 184,
+     "travel_sec": 373028
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0022",
+     "as_of": 36000,
+     "weighted": 198,
+     "weighted_total": 392,
+     "unassigned": 185,
+     "travel_sec": 373028
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0023",
+     "as_of": 36000,
+     "weighted": 198,
+     "weighted_total": 394,
+     "unassigned": 186,
+     "travel_sec": 373028
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0024",
+     "as_of": 36000,
+     "weighted": 198,
+     "weighted_total": 396,
+     "unassigned": 187,
+     "travel_sec": 373028
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0063",
+     "as_of": 36000,
+     "weighted": 198,
+     "weighted_total": 396,
+     "unassigned": 187,
+     "travel_sec": 373028
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0025",
+     "as_of": 36480,
+     "weighted": 198,
+     "weighted_total": 397,
+     "unassigned": 188,
+     "travel_sec": 373028
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0026",
+     "as_of": 36600,
+     "weighted": 198,
+     "weighted_total": 398,
+     "unassigned": 189,
+     "travel_sec": 373028
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0027",
+     "as_of": 36780,
+     "weighted": 198,
+     "weighted_total": 399,
+     "unassigned": 190,
+     "travel_sec": 373028
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0028",
+     "as_of": 36840,
+     "weighted": 198,
+     "weighted_total": 400,
+     "unassigned": 191,
+     "travel_sec": 373028
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0056",
+     "as_of": 36900,
+     "weighted": 197,
+     "weighted_total": 399,
+     "unassigned": 191,
+     "travel_sec": 368401
+    },
+    {
+     "version": 36,
+     "event": "EV-TR-20261026-05",
+     "as_of": 37470,
+     "weighted": 195,
+     "weighted_total": 399,
+     "unassigned": 192,
+     "travel_sec": 368123
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0029",
+     "as_of": 37500,
+     "weighted": 195,
+     "weighted_total": 400,
+     "unassigned": 193,
+     "travel_sec": 368123
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0030",
+     "as_of": 37740,
+     "weighted": 195,
+     "weighted_total": 401,
+     "unassigned": 194,
+     "travel_sec": 368123
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0031",
+     "as_of": 37800,
+     "weighted": 195,
+     "weighted_total": 402,
+     "unassigned": 195,
+     "travel_sec": 368123
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0032",
+     "as_of": 37800,
+     "weighted": 196,
+     "weighted_total": 403,
+     "unassigned": 195,
+     "travel_sec": 368269
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0033",
+     "as_of": 37800,
+     "weighted": 196,
+     "weighted_total": 404,
+     "unassigned": 196,
+     "travel_sec": 368269
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0064",
+     "as_of": 37800,
+     "weighted": 196,
+     "weighted_total": 404,
+     "unassigned": 196,
+     "travel_sec": 368269
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0034",
+     "as_of": 38100,
+     "weighted": 197,
+     "weighted_total": 405,
+     "unassigned": 196,
+     "travel_sec": 369136
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0035",
+     "as_of": 38220,
+     "weighted": 197,
+     "weighted_total": 406,
+     "unassigned": 197,
+     "travel_sec": 369136
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0036",
+     "as_of": 38400,
+     "weighted": 197,
+     "weighted_total": 407,
+     "unassigned": 198,
+     "travel_sec": 369136
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0037",
+     "as_of": 38580,
+     "weighted": 197,
+     "weighted_total": 408,
+     "unassigned": 199,
+     "travel_sec": 369136
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0038",
+     "as_of": 39000,
+     "weighted": 197,
+     "weighted_total": 410,
+     "unassigned": 200,
+     "travel_sec": 369136
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0039",
+     "as_of": 39060,
+     "weighted": 197,
+     "weighted_total": 411,
+     "unassigned": 201,
+     "travel_sec": 369136
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0040",
+     "as_of": 39060,
+     "weighted": 197,
+     "weighted_total": 412,
+     "unassigned": 202,
+     "travel_sec": 369136
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0041",
+     "as_of": 39300,
+     "weighted": 197,
+     "weighted_total": 413,
+     "unassigned": 203,
+     "travel_sec": 369136
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0042",
+     "as_of": 39420,
+     "weighted": 197,
+     "weighted_total": 414,
+     "unassigned": 204,
+     "travel_sec": 369136
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0065",
+     "as_of": 39600,
+     "weighted": 197,
+     "weighted_total": 414,
+     "unassigned": 204,
+     "travel_sec": 369136
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0043",
+     "as_of": 39960,
+     "weighted": 197,
+     "weighted_total": 415,
+     "unassigned": 205,
+     "travel_sec": 369136
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0059",
+     "as_of": 40200,
+     "weighted": 193,
+     "weighted_total": 415,
+     "unassigned": 209,
+     "travel_sec": 363636
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0044",
+     "as_of": 41100,
+     "weighted": 193,
+     "weighted_total": 416,
+     "unassigned": 210,
+     "travel_sec": 363636
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0066",
+     "as_of": 41400,
+     "weighted": 193,
+     "weighted_total": 416,
+     "unassigned": 210,
+     "travel_sec": 363636
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0045",
+     "as_of": 42420,
+     "weighted": 193,
+     "weighted_total": 417,
+     "unassigned": 211,
+     "travel_sec": 363636
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0046",
+     "as_of": 42600,
+     "weighted": 193,
+     "weighted_total": 418,
+     "unassigned": 212,
+     "travel_sec": 363636
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0047",
+     "as_of": 42660,
+     "weighted": 193,
+     "weighted_total": 419,
+     "unassigned": 213,
+     "travel_sec": 363636
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0048",
+     "as_of": 42840,
+     "weighted": 193,
+     "weighted_total": 420,
+     "unassigned": 214,
+     "travel_sec": 363636
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0060",
+     "as_of": 43200,
+     "weighted": 187,
+     "weighted_total": 420,
+     "unassigned": 220,
+     "travel_sec": 354165
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0067",
+     "as_of": 43200,
+     "weighted": 187,
+     "weighted_total": 420,
+     "unassigned": 220,
+     "travel_sec": 354165
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0054",
+     "as_of": 44100,
+     "weighted": 186,
+     "weighted_total": 419,
+     "unassigned": 220,
+     "travel_sec": 353567
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0055",
+     "as_of": 44100,
+     "weighted": 186,
+     "weighted_total": 418,
+     "unassigned": 219,
+     "travel_sec": 353567
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0049",
+     "as_of": 44160,
+     "weighted": 187,
+     "weighted_total": 419,
+     "unassigned": 219,
+     "travel_sec": 357881
+    },
+    {
+     "version": 66,
+     "event": "EV-20261026-0050",
+     "as_of": 44340,
+     "weighted": 188,
+     "weighted_total": 420,
+     "unassigned": 219,
+     "travel_sec": 358858
+    },
+    {
+     "version": 67,
+     "event": "EV-20261026-0051",
+     "as_of": 44760,
+     "weighted": 189,
+     "weighted_total": 421,
+     "unassigned": 219,
+     "travel_sec": 362053
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0052",
+     "as_of": 44880,
+     "weighted": 189,
+     "weighted_total": 422,
+     "unassigned": 220,
+     "travel_sec": 362053
+    },
+    {
+     "version": 69,
+     "event": "EV-20261026-0053",
+     "as_of": 44940,
+     "weighted": 191,
+     "weighted_total": 424,
+     "unassigned": 220,
+     "travel_sec": 362261
+    },
+    {
+     "version": 70,
+     "event": "EV-20261026-0068",
+     "as_of": 45000,
+     "weighted": 191,
+     "weighted_total": 424,
+     "unassigned": 220,
+     "travel_sec": 362261
+    },
+    {
+     "version": 71,
+     "event": "EV-TR-20261026-11",
+     "as_of": 46408,
+     "weighted": 191,
+     "weighted_total": 424,
+     "unassigned": 220,
+     "travel_sec": 362261
+    },
+    {
+     "version": 72,
+     "event": "EV-TR-20261026-12",
+     "as_of": 46418,
+     "weighted": 191,
+     "weighted_total": 424,
+     "unassigned": 220,
+     "travel_sec": 362261
+    },
+    {
+     "version": 73,
+     "event": "EV-20261026-0069",
+     "as_of": 46800,
+     "weighted": 191,
+     "weighted_total": 424,
+     "unassigned": 220,
+     "travel_sec": 362261
+    },
+    {
+     "version": 74,
+     "event": "EV-TR-20261026-01",
+     "as_of": 48355,
+     "weighted": 190,
+     "weighted_total": 424,
+     "unassigned": 221,
+     "travel_sec": 362125
+    },
+    {
+     "version": 75,
+     "event": "EV-TR-20261026-10",
+     "as_of": 48503,
+     "weighted": 189,
+     "weighted_total": 424,
+     "unassigned": 222,
+     "travel_sec": 361785
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0070",
+     "as_of": 48600,
+     "weighted": 189,
+     "weighted_total": 424,
+     "unassigned": 222,
+     "travel_sec": 361785
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0071",
+     "as_of": 50400,
+     "weighted": 189,
+     "weighted_total": 424,
+     "unassigned": 222,
+     "travel_sec": 361785
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0057",
+     "as_of": 51300,
+     "weighted": 189,
+     "weighted_total": 423,
+     "unassigned": 221,
+     "travel_sec": 361785
+    },
+    {
+     "version": 79,
+     "event": "EV-20261026-0072",
+     "as_of": 52200,
+     "weighted": 189,
+     "weighted_total": 423,
+     "unassigned": 221,
+     "travel_sec": 361785
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0073",
+     "as_of": 54000,
+     "weighted": 189,
+     "weighted_total": 423,
+     "unassigned": 221,
+     "travel_sec": 361785
+    },
+    {
+     "version": 81,
+     "event": "EV-TR-20261026-08",
+     "as_of": 55316,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0074",
+     "as_of": 55800,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 83,
+     "event": "EV-TR-20261026-13",
+     "as_of": 57136,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0075",
+     "as_of": 57600,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0076",
+     "as_of": 59400,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0077",
+     "as_of": 61200,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 87,
+     "event": "EV-20261026-0078",
+     "as_of": 63000,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 88,
+     "event": "EV-20261026-0079",
+     "as_of": 64800,
+     "weighted": 187,
+     "weighted_total": 423,
+     "unassigned": 222,
+     "travel_sec": 358954
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0058",
+     "as_of": 65700,
+     "weighted": 187,
+     "weighted_total": 422,
+     "unassigned": 221,
+     "travel_sec": 358954
+    },
+    {
+     "version": 90,
+     "event": "EV-20261026-0080",
+     "as_of": 66600,
+     "weighted": 187,
+     "weighted_total": 422,
+     "unassigned": 221,
+     "travel_sec": 358954
+    },
+    {
+     "version": 91,
+     "event": "EV-20261026-0081",
+     "as_of": 68400,
+     "weighted": 187,
+     "weighted_total": 422,
+     "unassigned": 221,
+     "travel_sec": 358954
+    },
+    {
+     "version": 92,
+     "event": "EV-TR-20261026-14",
+     "as_of": 70059,
+     "weighted": 187,
+     "weighted_total": 422,
+     "unassigned": 221,
+     "travel_sec": 358954
+    },
+    {
+     "version": 93,
+     "event": "EV-20261026-0082",
+     "as_of": 70200,
+     "weighted": 187,
+     "weighted_total": 422,
+     "unassigned": 221,
+     "travel_sec": 358954
+    },
+    {
+     "version": 94,
+     "event": "EV-20261026-0083",
+     "as_of": 72000,
+     "weighted": 187,
+     "weighted_total": 422,
+     "unassigned": 221,
+     "travel_sec": 358954
+    }
+   ],
+   "errors": [],
+   "wall_sec": 1.8,
+   "variant": "baseline",
+   "seed": 11
+  },
+  {
+   "plan_sec": 2.22,
+   "events": 92,
+   "event_sec_max": 0.069,
+   "event_sec_p95": 0.056,
+   "versions": 93,
+   "violations_algorithm": 0,
+   "violations_event": 0,
+   "violations_sample": [],
+   "initial_weighted_share": 0.6585,
+   "initial_travel_h": 64.3,
+   "final_success": 213,
+   "final_orders": 395,
+   "final_weighted_share": 0.5545,
+   "final_unassigned": 182,
+   "final_travel_h": 61.3,
+   "final_cv": 0.174,
+   "reschedules": 182,
+   "moved_orders": 11,
+   "late_risk_timely": 0,
+   "late_risk_inevitable": 6,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 243,
+     "weighted_total": 369,
+     "unassigned": 126,
+     "travel_sec": 231401
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 30960,
+     "weighted": 243,
+     "weighted_total": 370,
+     "unassigned": 127,
+     "travel_sec": 231401
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31080,
+     "weighted": 243,
+     "weighted_total": 371,
+     "unassigned": 128,
+     "travel_sec": 231401
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31320,
+     "weighted": 243,
+     "weighted_total": 372,
+     "unassigned": 129,
+     "travel_sec": 231401
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31920,
+     "weighted": 243,
+     "weighted_total": 373,
+     "unassigned": 130,
+     "travel_sec": 231401
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31920,
+     "weighted": 243,
+     "weighted_total": 374,
+     "unassigned": 131,
+     "travel_sec": 231401
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0006",
+     "as_of": 31980,
+     "weighted": 243,
+     "weighted_total": 375,
+     "unassigned": 132,
+     "travel_sec": 231401
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0007",
+     "as_of": 32160,
+     "weighted": 243,
+     "weighted_total": 376,
+     "unassigned": 133,
+     "travel_sec": 231401
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0061",
+     "as_of": 32400,
+     "weighted": 243,
+     "weighted_total": 376,
+     "unassigned": 133,
+     "travel_sec": 231401
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32640,
+     "weighted": 243,
+     "weighted_total": 377,
+     "unassigned": 134,
+     "travel_sec": 231401
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 33060,
+     "weighted": 243,
+     "weighted_total": 378,
+     "unassigned": 135,
+     "travel_sec": 231401
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33180,
+     "weighted": 243,
+     "weighted_total": 379,
+     "unassigned": 136,
+     "travel_sec": 231401
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33240,
+     "weighted": 243,
+     "weighted_total": 380,
+     "unassigned": 137,
+     "travel_sec": 231401
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 33300,
+     "weighted": 243,
+     "weighted_total": 381,
+     "unassigned": 138,
+     "travel_sec": 231401
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0013",
+     "as_of": 33420,
+     "weighted": 243,
+     "weighted_total": 382,
+     "unassigned": 139,
+     "travel_sec": 231401
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0014",
+     "as_of": 33540,
+     "weighted": 243,
+     "weighted_total": 383,
+     "unassigned": 140,
+     "travel_sec": 231401
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0015",
+     "as_of": 33840,
+     "weighted": 243,
+     "weighted_total": 384,
+     "unassigned": 141,
+     "travel_sec": 231401
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0016",
+     "as_of": 33900,
+     "weighted": 243,
+     "weighted_total": 385,
+     "unassigned": 142,
+     "travel_sec": 231401
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0017",
+     "as_of": 33900,
+     "weighted": 243,
+     "weighted_total": 386,
+     "unassigned": 143,
+     "travel_sec": 231401
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0018",
+     "as_of": 34140,
+     "weighted": 243,
+     "weighted_total": 387,
+     "unassigned": 144,
+     "travel_sec": 231401
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0062",
+     "as_of": 34200,
+     "weighted": 243,
+     "weighted_total": 387,
+     "unassigned": 144,
+     "travel_sec": 231401
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0019",
+     "as_of": 34260,
+     "weighted": 243,
+     "weighted_total": 388,
+     "unassigned": 145,
+     "travel_sec": 231401
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0020",
+     "as_of": 34500,
+     "weighted": 243,
+     "weighted_total": 389,
+     "unassigned": 146,
+     "travel_sec": 231401
+    },
+    {
+     "version": 24,
+     "event": "EV-TR-20261026-06",
+     "as_of": 34763,
+     "weighted": 242,
+     "weighted_total": 389,
+     "unassigned": 147,
+     "travel_sec": 230472
+    },
+    {
+     "version": 25,
+     "event": "EV-TR-20261026-07",
+     "as_of": 34943,
+     "weighted": 240,
+     "weighted_total": 389,
+     "unassigned": 148,
+     "travel_sec": 230359
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0021",
+     "as_of": 35160,
+     "weighted": 240,
+     "weighted_total": 390,
+     "unassigned": 149,
+     "travel_sec": 230359
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0022",
+     "as_of": 36000,
+     "weighted": 240,
+     "weighted_total": 392,
+     "unassigned": 150,
+     "travel_sec": 230359
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0023",
+     "as_of": 36000,
+     "weighted": 240,
+     "weighted_total": 394,
+     "unassigned": 151,
+     "travel_sec": 230359
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0024",
+     "as_of": 36000,
+     "weighted": 240,
+     "weighted_total": 396,
+     "unassigned": 152,
+     "travel_sec": 230359
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0063",
+     "as_of": 36000,
+     "weighted": 240,
+     "weighted_total": 396,
+     "unassigned": 152,
+     "travel_sec": 230359
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0025",
+     "as_of": 36480,
+     "weighted": 240,
+     "weighted_total": 397,
+     "unassigned": 153,
+     "travel_sec": 230359
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0026",
+     "as_of": 36600,
+     "weighted": 240,
+     "weighted_total": 398,
+     "unassigned": 154,
+     "travel_sec": 230359
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0027",
+     "as_of": 36780,
+     "weighted": 240,
+     "weighted_total": 399,
+     "unassigned": 155,
+     "travel_sec": 230359
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0028",
+     "as_of": 36840,
+     "weighted": 240,
+     "weighted_total": 400,
+     "unassigned": 156,
+     "travel_sec": 230359
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0056",
+     "as_of": 36900,
+     "weighted": 240,
+     "weighted_total": 399,
+     "unassigned": 155,
+     "travel_sec": 230380
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0029",
+     "as_of": 37500,
+     "weighted": 240,
+     "weighted_total": 400,
+     "unassigned": 156,
+     "travel_sec": 230380
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0030",
+     "as_of": 37740,
+     "weighted": 241,
+     "weighted_total": 401,
+     "unassigned": 156,
+     "travel_sec": 231543
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0031",
+     "as_of": 37800,
+     "weighted": 241,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 231543
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0032",
+     "as_of": 37800,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 158,
+     "travel_sec": 231543
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0033",
+     "as_of": 37800,
+     "weighted": 241,
+     "weighted_total": 404,
+     "unassigned": 159,
+     "travel_sec": 231543
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0064",
+     "as_of": 37800,
+     "weighted": 241,
+     "weighted_total": 404,
+     "unassigned": 159,
+     "travel_sec": 231543
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0034",
+     "as_of": 38100,
+     "weighted": 241,
+     "weighted_total": 405,
+     "unassigned": 160,
+     "travel_sec": 231543
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0035",
+     "as_of": 38220,
+     "weighted": 241,
+     "weighted_total": 406,
+     "unassigned": 161,
+     "travel_sec": 231543
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0036",
+     "as_of": 38400,
+     "weighted": 241,
+     "weighted_total": 407,
+     "unassigned": 162,
+     "travel_sec": 231543
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0037",
+     "as_of": 38580,
+     "weighted": 241,
+     "weighted_total": 408,
+     "unassigned": 163,
+     "travel_sec": 231543
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0038",
+     "as_of": 39000,
+     "weighted": 241,
+     "weighted_total": 410,
+     "unassigned": 164,
+     "travel_sec": 231543
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0039",
+     "as_of": 39060,
+     "weighted": 241,
+     "weighted_total": 411,
+     "unassigned": 165,
+     "travel_sec": 231543
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0040",
+     "as_of": 39060,
+     "weighted": 241,
+     "weighted_total": 412,
+     "unassigned": 166,
+     "travel_sec": 231543
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0041",
+     "as_of": 39300,
+     "weighted": 241,
+     "weighted_total": 413,
+     "unassigned": 167,
+     "travel_sec": 231543
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0042",
+     "as_of": 39420,
+     "weighted": 241,
+     "weighted_total": 414,
+     "unassigned": 168,
+     "travel_sec": 231543
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0065",
+     "as_of": 39600,
+     "weighted": 241,
+     "weighted_total": 414,
+     "unassigned": 168,
+     "travel_sec": 231543
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0043",
+     "as_of": 39960,
+     "weighted": 241,
+     "weighted_total": 415,
+     "unassigned": 169,
+     "travel_sec": 231543
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0059",
+     "as_of": 40200,
+     "weighted": 237,
+     "weighted_total": 415,
+     "unassigned": 173,
+     "travel_sec": 223160
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0044",
+     "as_of": 41100,
+     "weighted": 238,
+     "weighted_total": 416,
+     "unassigned": 173,
+     "travel_sec": 223358
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0066",
+     "as_of": 41400,
+     "weighted": 238,
+     "weighted_total": 416,
+     "unassigned": 173,
+     "travel_sec": 223358
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0045",
+     "as_of": 42420,
+     "weighted": 238,
+     "weighted_total": 417,
+     "unassigned": 174,
+     "travel_sec": 223358
+    },
+    {
+     "version": 57,
+     "event": "EV-TR-20261026-11",
+     "as_of": 42439,
+     "weighted": 238,
+     "weighted_total": 417,
+     "unassigned": 174,
+     "travel_sec": 223358
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0046",
+     "as_of": 42600,
+     "weighted": 238,
+     "weighted_total": 418,
+     "unassigned": 175,
+     "travel_sec": 223358
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0047",
+     "as_of": 42660,
+     "weighted": 238,
+     "weighted_total": 419,
+     "unassigned": 176,
+     "travel_sec": 223358
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0048",
+     "as_of": 42840,
+     "weighted": 238,
+     "weighted_total": 420,
+     "unassigned": 177,
+     "travel_sec": 223358
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0060",
+     "as_of": 43200,
+     "weighted": 237,
+     "weighted_total": 420,
+     "unassigned": 178,
+     "travel_sec": 221967
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0067",
+     "as_of": 43200,
+     "weighted": 237,
+     "weighted_total": 420,
+     "unassigned": 178,
+     "travel_sec": 221967
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0054",
+     "as_of": 44100,
+     "weighted": 237,
+     "weighted_total": 419,
+     "unassigned": 177,
+     "travel_sec": 221956
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0055",
+     "as_of": 44100,
+     "weighted": 237,
+     "weighted_total": 418,
+     "unassigned": 176,
+     "travel_sec": 221956
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0049",
+     "as_of": 44160,
+     "weighted": 237,
+     "weighted_total": 419,
+     "unassigned": 177,
+     "travel_sec": 221956
+    },
+    {
+     "version": 66,
+     "event": "EV-TR-20261026-01",
+     "as_of": 44241,
+     "weighted": 236,
+     "weighted_total": 419,
+     "unassigned": 178,
+     "travel_sec": 221717
+    },
+    {
+     "version": 67,
+     "event": "EV-20261026-0050",
+     "as_of": 44340,
+     "weighted": 236,
+     "weighted_total": 420,
+     "unassigned": 179,
+     "travel_sec": 221717
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0051",
+     "as_of": 44760,
+     "weighted": 236,
+     "weighted_total": 421,
+     "unassigned": 180,
+     "travel_sec": 221717
+    },
+    {
+     "version": 69,
+     "event": "EV-20261026-0052",
+     "as_of": 44880,
+     "weighted": 236,
+     "weighted_total": 422,
+     "unassigned": 181,
+     "travel_sec": 221717
+    },
+    {
+     "version": 70,
+     "event": "EV-20261026-0053",
+     "as_of": 44940,
+     "weighted": 236,
+     "weighted_total": 424,
+     "unassigned": 182,
+     "travel_sec": 221717
+    },
+    {
+     "version": 71,
+     "event": "EV-20261026-0068",
+     "as_of": 45000,
+     "weighted": 236,
+     "weighted_total": 424,
+     "unassigned": 182,
+     "travel_sec": 221717
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0069",
+     "as_of": 46800,
+     "weighted": 236,
+     "weighted_total": 424,
+     "unassigned": 182,
+     "travel_sec": 221717
+    },
+    {
+     "version": 73,
+     "event": "EV-TR-20261026-10",
+     "as_of": 47058,
+     "weighted": 236,
+     "weighted_total": 424,
+     "unassigned": 182,
+     "travel_sec": 221543
+    },
+    {
+     "version": 74,
+     "event": "EV-20261026-0070",
+     "as_of": 48600,
+     "weighted": 236,
+     "weighted_total": 424,
+     "unassigned": 182,
+     "travel_sec": 221543
+    },
+    {
+     "version": 75,
+     "event": "EV-20261026-0071",
+     "as_of": 50400,
+     "weighted": 236,
+     "weighted_total": 424,
+     "unassigned": 182,
+     "travel_sec": 221543
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0057",
+     "as_of": 51300,
+     "weighted": 236,
+     "weighted_total": 423,
+     "unassigned": 181,
+     "travel_sec": 221119
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0072",
+     "as_of": 52200,
+     "weighted": 236,
+     "weighted_total": 423,
+     "unassigned": 181,
+     "travel_sec": 221119
+    },
+    {
+     "version": 78,
+     "event": "EV-TR-20261026-03",
+     "as_of": 52397,
+     "weighted": 235,
+     "weighted_total": 423,
+     "unassigned": 182,
+     "travel_sec": 220808
+    },
+    {
+     "version": 79,
+     "event": "EV-TR-20261026-08",
+     "as_of": 53047,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0073",
+     "as_of": 54000,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0074",
+     "as_of": 55800,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0075",
+     "as_of": 57600,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 83,
+     "event": "EV-20261026-0076",
+     "as_of": 59400,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0077",
+     "as_of": 61200,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0078",
+     "as_of": 63000,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0079",
+     "as_of": 64800,
+     "weighted": 234,
+     "weighted_total": 423,
+     "unassigned": 183,
+     "travel_sec": 220723
+    },
+    {
+     "version": 87,
+     "event": "EV-20261026-0058",
+     "as_of": 65700,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    },
+    {
+     "version": 88,
+     "event": "EV-20261026-0080",
+     "as_of": 66600,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0081",
+     "as_of": 68400,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    },
+    {
+     "version": 90,
+     "event": "EV-TR-20261026-02",
+     "as_of": 68807,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    },
+    {
+     "version": 91,
+     "event": "EV-20261026-0082",
+     "as_of": 70200,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    },
+    {
+     "version": 92,
+     "event": "EV-20261026-0083",
+     "as_of": 72000,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    },
+    {
+     "version": 93,
+     "event": "EV-TR-20261026-14",
+     "as_of": 72012,
+     "weighted": 234,
+     "weighted_total": 422,
+     "unassigned": 182,
+     "travel_sec": 220723
+    }
+   ],
+   "errors": [],
+   "wall_sec": 4.6,
+   "variant": "basic",
+   "seed": 11
+  },
+  {
+   "plan_sec": 61.77,
+   "events": 94,
+   "event_sec_max": 0.075,
+   "event_sec_p95": 0.046,
+   "versions": 95,
+   "violations_algorithm": 0,
+   "violations_event": 9,
+   "violations_sample": [
+    [
+     87,
+     "H2 ST-008 #10: остановка вне смены",
+     "event"
+    ],
+    [
+     88,
+     "H2 ST-008 #10: остановка вне смены",
+     "event"
+    ],
+    [
+     89,
+     "H2 ST-008 #10: остановка вне смены",
+     "event"
+    ],
+    [
+     90,
+     "H2 ST-008 #10: остановка вне смены",
+     "event"
+    ],
+    [
+     91,
+     "H2 ST-008 #10: остановка вне смены",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.7049,
+   "initial_travel_h": 58.6,
+   "final_success": 221,
+   "final_orders": 389,
+   "final_weighted_share": 0.5793,
+   "final_unassigned": 161,
+   "final_travel_h": 57.6,
+   "final_cv": 0.157,
+   "reschedules": 161,
+   "moved_orders": 12,
+   "late_risk_timely": 6,
+   "late_risk_inevitable": 6,
+   "late_risk_timely_share": 1.0,
+   "pgp_precision": 1.0,
+   "pgp_recall": 1.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 258,
+     "weighted_total": 366,
+     "unassigned": 108,
+     "travel_sec": 211016
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 30960,
+     "weighted": 258,
+     "weighted_total": 367,
+     "unassigned": 109,
+     "travel_sec": 211016
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31080,
+     "weighted": 258,
+     "weighted_total": 368,
+     "unassigned": 110,
+     "travel_sec": 211016
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31320,
+     "weighted": 258,
+     "weighted_total": 369,
+     "unassigned": 111,
+     "travel_sec": 211016
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31920,
+     "weighted": 258,
+     "weighted_total": 370,
+     "unassigned": 112,
+     "travel_sec": 211016
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31920,
+     "weighted": 258,
+     "weighted_total": 371,
+     "unassigned": 113,
+     "travel_sec": 211016
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0006",
+     "as_of": 31980,
+     "weighted": 258,
+     "weighted_total": 372,
+     "unassigned": 114,
+     "travel_sec": 211016
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0007",
+     "as_of": 32160,
+     "weighted": 258,
+     "weighted_total": 373,
+     "unassigned": 115,
+     "travel_sec": 211016
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0061",
+     "as_of": 32400,
+     "weighted": 258,
+     "weighted_total": 373,
+     "unassigned": 115,
+     "travel_sec": 211016
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32640,
+     "weighted": 258,
+     "weighted_total": 374,
+     "unassigned": 116,
+     "travel_sec": 211016
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 33060,
+     "weighted": 258,
+     "weighted_total": 375,
+     "unassigned": 117,
+     "travel_sec": 211016
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33180,
+     "weighted": 258,
+     "weighted_total": 376,
+     "unassigned": 118,
+     "travel_sec": 211016
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33240,
+     "weighted": 258,
+     "weighted_total": 377,
+     "unassigned": 119,
+     "travel_sec": 211016
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 33300,
+     "weighted": 258,
+     "weighted_total": 378,
+     "unassigned": 120,
+     "travel_sec": 211016
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0013",
+     "as_of": 33420,
+     "weighted": 258,
+     "weighted_total": 379,
+     "unassigned": 121,
+     "travel_sec": 211016
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0014",
+     "as_of": 33540,
+     "weighted": 258,
+     "weighted_total": 380,
+     "unassigned": 122,
+     "travel_sec": 211016
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0015",
+     "as_of": 33840,
+     "weighted": 258,
+     "weighted_total": 381,
+     "unassigned": 123,
+     "travel_sec": 211016
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0016",
+     "as_of": 33900,
+     "weighted": 258,
+     "weighted_total": 382,
+     "unassigned": 124,
+     "travel_sec": 211016
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0017",
+     "as_of": 33900,
+     "weighted": 258,
+     "weighted_total": 383,
+     "unassigned": 125,
+     "travel_sec": 211016
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0018",
+     "as_of": 34140,
+     "weighted": 258,
+     "weighted_total": 384,
+     "unassigned": 126,
+     "travel_sec": 211016
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0062",
+     "as_of": 34200,
+     "weighted": 258,
+     "weighted_total": 384,
+     "unassigned": 126,
+     "travel_sec": 211016
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0019",
+     "as_of": 34260,
+     "weighted": 258,
+     "weighted_total": 385,
+     "unassigned": 127,
+     "travel_sec": 211016
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0020",
+     "as_of": 34500,
+     "weighted": 258,
+     "weighted_total": 386,
+     "unassigned": 128,
+     "travel_sec": 211016
+    },
+    {
+     "version": 24,
+     "event": "EV-TR-20261026-05",
+     "as_of": 34710,
+     "weighted": 258,
+     "weighted_total": 386,
+     "unassigned": 128,
+     "travel_sec": 211977
+    },
+    {
+     "version": 25,
+     "event": "EV-TR-20261026-06",
+     "as_of": 34763,
+     "weighted": 257,
+     "weighted_total": 386,
+     "unassigned": 129,
+     "travel_sec": 211977
+    },
+    {
+     "version": 26,
+     "event": "EV-TR-20261026-07",
+     "as_of": 34943,
+     "weighted": 255,
+     "weighted_total": 386,
+     "unassigned": 130,
+     "travel_sec": 211564
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0021",
+     "as_of": 35160,
+     "weighted": 255,
+     "weighted_total": 387,
+     "unassigned": 131,
+     "travel_sec": 211564
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0022",
+     "as_of": 36000,
+     "weighted": 255,
+     "weighted_total": 389,
+     "unassigned": 132,
+     "travel_sec": 211564
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0023",
+     "as_of": 36000,
+     "weighted": 255,
+     "weighted_total": 391,
+     "unassigned": 133,
+     "travel_sec": 211564
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0024",
+     "as_of": 36000,
+     "weighted": 255,
+     "weighted_total": 393,
+     "unassigned": 134,
+     "travel_sec": 211564
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0063",
+     "as_of": 36000,
+     "weighted": 255,
+     "weighted_total": 393,
+     "unassigned": 134,
+     "travel_sec": 211564
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0025",
+     "as_of": 36480,
+     "weighted": 255,
+     "weighted_total": 394,
+     "unassigned": 135,
+     "travel_sec": 211564
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0026",
+     "as_of": 36600,
+     "weighted": 255,
+     "weighted_total": 395,
+     "unassigned": 136,
+     "travel_sec": 211564
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0027",
+     "as_of": 36780,
+     "weighted": 255,
+     "weighted_total": 396,
+     "unassigned": 137,
+     "travel_sec": 211564
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0028",
+     "as_of": 36840,
+     "weighted": 255,
+     "weighted_total": 397,
+     "unassigned": 138,
+     "travel_sec": 211564
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0056",
+     "as_of": 36900,
+     "weighted": 254,
+     "weighted_total": 396,
+     "unassigned": 138,
+     "travel_sec": 211402
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0029",
+     "as_of": 37500,
+     "weighted": 254,
+     "weighted_total": 397,
+     "unassigned": 139,
+     "travel_sec": 211402
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0030",
+     "as_of": 37740,
+     "weighted": 254,
+     "weighted_total": 398,
+     "unassigned": 140,
+     "travel_sec": 211402
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0031",
+     "as_of": 37800,
+     "weighted": 254,
+     "weighted_total": 399,
+     "unassigned": 141,
+     "travel_sec": 211402
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0032",
+     "as_of": 37800,
+     "weighted": 254,
+     "weighted_total": 400,
+     "unassigned": 142,
+     "travel_sec": 211402
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0033",
+     "as_of": 37800,
+     "weighted": 254,
+     "weighted_total": 401,
+     "unassigned": 143,
+     "travel_sec": 211402
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0064",
+     "as_of": 37800,
+     "weighted": 254,
+     "weighted_total": 401,
+     "unassigned": 143,
+     "travel_sec": 211402
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0034",
+     "as_of": 38100,
+     "weighted": 254,
+     "weighted_total": 402,
+     "unassigned": 144,
+     "travel_sec": 211402
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0035",
+     "as_of": 38220,
+     "weighted": 254,
+     "weighted_total": 403,
+     "unassigned": 145,
+     "travel_sec": 211402
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0036",
+     "as_of": 38400,
+     "weighted": 254,
+     "weighted_total": 401,
+     "unassigned": 143,
+     "travel_sec": 211402
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0037",
+     "as_of": 38580,
+     "weighted": 254,
+     "weighted_total": 402,
+     "unassigned": 144,
+     "travel_sec": 211402
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0038",
+     "as_of": 39000,
+     "weighted": 254,
+     "weighted_total": 404,
+     "unassigned": 145,
+     "travel_sec": 211402
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0039",
+     "as_of": 39060,
+     "weighted": 254,
+     "weighted_total": 405,
+     "unassigned": 146,
+     "travel_sec": 211402
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0040",
+     "as_of": 39060,
+     "weighted": 254,
+     "weighted_total": 406,
+     "unassigned": 147,
+     "travel_sec": 211402
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0041",
+     "as_of": 39300,
+     "weighted": 254,
+     "weighted_total": 407,
+     "unassigned": 148,
+     "travel_sec": 211402
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0042",
+     "as_of": 39420,
+     "weighted": 254,
+     "weighted_total": 408,
+     "unassigned": 149,
+     "travel_sec": 211402
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0065",
+     "as_of": 39600,
+     "weighted": 254,
+     "weighted_total": 408,
+     "unassigned": 149,
+     "travel_sec": 211402
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0043",
+     "as_of": 39960,
+     "weighted": 254,
+     "weighted_total": 409,
+     "unassigned": 150,
+     "travel_sec": 211402
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0059",
+     "as_of": 40200,
+     "weighted": 249,
+     "weighted_total": 409,
+     "unassigned": 154,
+     "travel_sec": 206503
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0044",
+     "as_of": 41100,
+     "weighted": 250,
+     "weighted_total": 410,
+     "unassigned": 154,
+     "travel_sec": 206701
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0066",
+     "as_of": 41400,
+     "weighted": 250,
+     "weighted_total": 410,
+     "unassigned": 154,
+     "travel_sec": 206701
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0045",
+     "as_of": 42420,
+     "weighted": 250,
+     "weighted_total": 411,
+     "unassigned": 155,
+     "travel_sec": 206701
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0046",
+     "as_of": 42600,
+     "weighted": 250,
+     "weighted_total": 412,
+     "unassigned": 156,
+     "travel_sec": 206701
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0047",
+     "as_of": 42660,
+     "weighted": 250,
+     "weighted_total": 413,
+     "unassigned": 157,
+     "travel_sec": 206701
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0048",
+     "as_of": 42840,
+     "weighted": 250,
+     "weighted_total": 414,
+     "unassigned": 158,
+     "travel_sec": 206701
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0060",
+     "as_of": 43200,
+     "weighted": 249,
+     "weighted_total": 414,
+     "unassigned": 159,
+     "travel_sec": 205826
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0067",
+     "as_of": 43200,
+     "weighted": 249,
+     "weighted_total": 414,
+     "unassigned": 159,
+     "travel_sec": 205826
+    },
+    {
+     "version": 63,
+     "event": "EV-TR-20261026-01",
+     "as_of": 43354,
+     "weighted": 248,
+     "weighted_total": 414,
+     "unassigned": 160,
+     "travel_sec": 205535
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0054",
+     "as_of": 44100,
+     "weighted": 248,
+     "weighted_total": 413,
+     "unassigned": 159,
+     "travel_sec": 205584
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0055",
+     "as_of": 44100,
+     "weighted": 248,
+     "weighted_total": 412,
+     "unassigned": 158,
+     "travel_sec": 205584
+    },
+    {
+     "version": 66,
+     "event": "EV-20261026-0049",
+     "as_of": 44160,
+     "weighted": 248,
+     "weighted_total": 413,
+     "unassigned": 159,
+     "travel_sec": 205584
+    },
+    {
+     "version": 67,
+     "event": "EV-20261026-0050",
+     "as_of": 44340,
+     "weighted": 248,
+     "weighted_total": 414,
+     "unassigned": 160,
+     "travel_sec": 205584
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0051",
+     "as_of": 44760,
+     "weighted": 248,
+     "weighted_total": 415,
+     "unassigned": 161,
+     "travel_sec": 205584
+    },
+    {
+     "version": 69,
+     "event": "EV-TR-20261026-11",
+     "as_of": 44829,
+     "weighted": 248,
+     "weighted_total": 415,
+     "unassigned": 161,
+     "travel_sec": 205584
+    },
+    {
+     "version": 70,
+     "event": "EV-20261026-0052",
+     "as_of": 44880,
+     "weighted": 248,
+     "weighted_total": 416,
+     "unassigned": 162,
+     "travel_sec": 205584
+    },
+    {
+     "version": 71,
+     "event": "EV-20261026-0053",
+     "as_of": 44940,
+     "weighted": 248,
+     "weighted_total": 418,
+     "unassigned": 163,
+     "travel_sec": 205584
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0068",
+     "as_of": 45000,
+     "weighted": 248,
+     "weighted_total": 418,
+     "unassigned": 163,
+     "travel_sec": 205584
+    },
+    {
+     "version": 73,
+     "event": "EV-TR-20261026-10",
+     "as_of": 46784,
+     "weighted": 247,
+     "weighted_total": 418,
+     "unassigned": 164,
+     "travel_sec": 205496
+    },
+    {
+     "version": 74,
+     "event": "EV-20261026-0069",
+     "as_of": 46800,
+     "weighted": 247,
+     "weighted_total": 418,
+     "unassigned": 164,
+     "travel_sec": 205496
+    },
+    {
+     "version": 75,
+     "event": "EV-TR-20261026-12",
+     "as_of": 47587,
+     "weighted": 248,
+     "weighted_total": 418,
+     "unassigned": 163,
+     "travel_sec": 206306
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0070",
+     "as_of": 48600,
+     "weighted": 248,
+     "weighted_total": 418,
+     "unassigned": 163,
+     "travel_sec": 206306
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0071",
+     "as_of": 50400,
+     "weighted": 248,
+     "weighted_total": 418,
+     "unassigned": 163,
+     "travel_sec": 206306
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0057",
+     "as_of": 51300,
+     "weighted": 248,
+     "weighted_total": 417,
+     "unassigned": 162,
+     "travel_sec": 207593
+    },
+    {
+     "version": 79,
+     "event": "EV-20261026-0072",
+     "as_of": 52200,
+     "weighted": 248,
+     "weighted_total": 417,
+     "unassigned": 162,
+     "travel_sec": 207593
+    },
+    {
+     "version": 80,
+     "event": "EV-TR-20261026-03",
+     "as_of": 53296,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0073",
+     "as_of": 54000,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0074",
+     "as_of": 55800,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 83,
+     "event": "EV-TR-20261026-04",
+     "as_of": 57356,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0075",
+     "as_of": 57600,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0076",
+     "as_of": 59400,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0077",
+     "as_of": 61200,
+     "weighted": 247,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 87,
+     "event": "EV-TR-20261026-09",
+     "as_of": 61262,
+     "weighted": 239,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 88,
+     "event": "EV-20261026-0078",
+     "as_of": 63000,
+     "weighted": 239,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0079",
+     "as_of": 64800,
+     "weighted": 239,
+     "weighted_total": 417,
+     "unassigned": 163,
+     "travel_sec": 206916
+    },
+    {
+     "version": 90,
+     "event": "EV-20261026-0058",
+     "as_of": 65700,
+     "weighted": 240,
+     "weighted_total": 416,
+     "unassigned": 162,
+     "travel_sec": 206788
+    },
+    {
+     "version": 91,
+     "event": "EV-20261026-0080",
+     "as_of": 66600,
+     "weighted": 240,
+     "weighted_total": 416,
+     "unassigned": 162,
+     "travel_sec": 206788
+    },
+    {
+     "version": 92,
+     "event": "EV-20261026-0081",
+     "as_of": 68400,
+     "weighted": 240,
+     "weighted_total": 416,
+     "unassigned": 162,
+     "travel_sec": 206788
+    },
+    {
+     "version": 93,
+     "event": "EV-20261026-0082",
+     "as_of": 70200,
+     "weighted": 240,
+     "weighted_total": 416,
+     "unassigned": 162,
+     "travel_sec": 206788
+    },
+    {
+     "version": 94,
+     "event": "EV-TR-20261026-14",
+     "as_of": 71572,
+     "weighted": 241,
+     "weighted_total": 416,
+     "unassigned": 161,
+     "travel_sec": 207219
+    },
+    {
+     "version": 95,
+     "event": "EV-20261026-0083",
+     "as_of": 72000,
+     "weighted": 241,
+     "weighted_total": 416,
+     "unassigned": 161,
+     "travel_sec": 207219
+    }
+   ],
+   "errors": [],
+   "wall_sec": 64.3,
+   "variant": "full",
+   "seed": 11
+  },
+  {
+   "plan_sec": 0.15,
+   "events": 86,
+   "event_sec_max": 0.053,
+   "event_sec_p95": 0.009,
+   "versions": 87,
+   "violations_algorithm": 0,
+   "violations_event": 25,
+   "violations_sample": [
+    [
+     79,
+     "H2 ST-017/ORD-20261026-0168 #7: остановка вне смены",
+     "event"
+    ],
+    [
+     79,
+     "H2 ST-017 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     80,
+     "H2 ST-017/ORD-20261026-0168 #7: остановка вне смены",
+     "event"
+    ],
+    [
+     80,
+     "H2 ST-017 #8: остановка вне смены",
+     "event"
+    ],
+    [
+     81,
+     "H3 ST-006: перерывов 0, нужен ровно один",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.5276,
+   "initial_travel_h": 113.6,
+   "final_success": 167,
+   "final_orders": 395,
+   "final_weighted_share": 0.4265,
+   "final_unassigned": 219,
+   "final_travel_h": 108.8,
+   "final_cv": 0.206,
+   "reschedules": 207,
+   "moved_orders": 12,
+   "late_risk_timely": 0,
+   "late_risk_inevitable": 4,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 191,
+     "weighted_total": 362,
+     "unassigned": 168,
+     "travel_sec": 409101
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 30780,
+     "weighted": 191,
+     "weighted_total": 363,
+     "unassigned": 169,
+     "travel_sec": 409101
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31140,
+     "weighted": 191,
+     "weighted_total": 364,
+     "unassigned": 170,
+     "travel_sec": 409101
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31260,
+     "weighted": 191,
+     "weighted_total": 365,
+     "unassigned": 171,
+     "travel_sec": 409101
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31800,
+     "weighted": 191,
+     "weighted_total": 366,
+     "unassigned": 172,
+     "travel_sec": 409101
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31920,
+     "weighted": 191,
+     "weighted_total": 367,
+     "unassigned": 173,
+     "travel_sec": 409101
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0006",
+     "as_of": 32340,
+     "weighted": 191,
+     "weighted_total": 368,
+     "unassigned": 174,
+     "travel_sec": 409101
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0057",
+     "as_of": 32400,
+     "weighted": 191,
+     "weighted_total": 368,
+     "unassigned": 174,
+     "travel_sec": 409101
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0007",
+     "as_of": 32580,
+     "weighted": 191,
+     "weighted_total": 369,
+     "unassigned": 175,
+     "travel_sec": 409101
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32880,
+     "weighted": 191,
+     "weighted_total": 370,
+     "unassigned": 176,
+     "travel_sec": 409101
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 33180,
+     "weighted": 191,
+     "weighted_total": 371,
+     "unassigned": 177,
+     "travel_sec": 409101
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33480,
+     "weighted": 191,
+     "weighted_total": 372,
+     "unassigned": 178,
+     "travel_sec": 409101
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33960,
+     "weighted": 191,
+     "weighted_total": 374,
+     "unassigned": 179,
+     "travel_sec": 409101
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 34020,
+     "weighted": 191,
+     "weighted_total": 375,
+     "unassigned": 180,
+     "travel_sec": 409101
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0058",
+     "as_of": 34200,
+     "weighted": 191,
+     "weighted_total": 375,
+     "unassigned": 180,
+     "travel_sec": 409101
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0013",
+     "as_of": 34680,
+     "weighted": 191,
+     "weighted_total": 376,
+     "unassigned": 181,
+     "travel_sec": 409101
+    },
+    {
+     "version": 17,
+     "event": "EV-20261026-0014",
+     "as_of": 35340,
+     "weighted": 191,
+     "weighted_total": 377,
+     "unassigned": 182,
+     "travel_sec": 409101
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0015",
+     "as_of": 35760,
+     "weighted": 191,
+     "weighted_total": 378,
+     "unassigned": 183,
+     "travel_sec": 409101
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0016",
+     "as_of": 36000,
+     "weighted": 191,
+     "weighted_total": 380,
+     "unassigned": 184,
+     "travel_sec": 409101
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0059",
+     "as_of": 36000,
+     "weighted": 191,
+     "weighted_total": 380,
+     "unassigned": 184,
+     "travel_sec": 409101
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0017",
+     "as_of": 36240,
+     "weighted": 191,
+     "weighted_total": 381,
+     "unassigned": 185,
+     "travel_sec": 409101
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0018",
+     "as_of": 36300,
+     "weighted": 191,
+     "weighted_total": 382,
+     "unassigned": 186,
+     "travel_sec": 409101
+    },
+    {
+     "version": 23,
+     "event": "EV-TR-20261026-08",
+     "as_of": 36412,
+     "weighted": 190,
+     "weighted_total": 382,
+     "unassigned": 187,
+     "travel_sec": 407244
+    },
+    {
+     "version": 24,
+     "event": "EV-20261026-0019",
+     "as_of": 36600,
+     "weighted": 190,
+     "weighted_total": 383,
+     "unassigned": 188,
+     "travel_sec": 407244
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0020",
+     "as_of": 36780,
+     "weighted": 191,
+     "weighted_total": 384,
+     "unassigned": 188,
+     "travel_sec": 408267
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0050",
+     "as_of": 36900,
+     "weighted": 191,
+     "weighted_total": 383,
+     "unassigned": 187,
+     "travel_sec": 408267
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0051",
+     "as_of": 36900,
+     "weighted": 190,
+     "weighted_total": 382,
+     "unassigned": 187,
+     "travel_sec": 406976
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0053",
+     "as_of": 36900,
+     "weighted": 190,
+     "weighted_total": 381,
+     "unassigned": 186,
+     "travel_sec": 406976
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0054",
+     "as_of": 36900,
+     "weighted": 190,
+     "weighted_total": 380,
+     "unassigned": 185,
+     "travel_sec": 406976
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0021",
+     "as_of": 37080,
+     "weighted": 190,
+     "weighted_total": 381,
+     "unassigned": 186,
+     "travel_sec": 406976
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0022",
+     "as_of": 37140,
+     "weighted": 190,
+     "weighted_total": 382,
+     "unassigned": 187,
+     "travel_sec": 406976
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0023",
+     "as_of": 37200,
+     "weighted": 191,
+     "weighted_total": 383,
+     "unassigned": 187,
+     "travel_sec": 408805
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0024",
+     "as_of": 37440,
+     "weighted": 191,
+     "weighted_total": 384,
+     "unassigned": 188,
+     "travel_sec": 408805
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0025",
+     "as_of": 37500,
+     "weighted": 191,
+     "weighted_total": 385,
+     "unassigned": 189,
+     "travel_sec": 408805
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0026",
+     "as_of": 37620,
+     "weighted": 191,
+     "weighted_total": 386,
+     "unassigned": 190,
+     "travel_sec": 408805
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0027",
+     "as_of": 37740,
+     "weighted": 191,
+     "weighted_total": 387,
+     "unassigned": 191,
+     "travel_sec": 408805
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0028",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 388,
+     "unassigned": 192,
+     "travel_sec": 408805
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0029",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 389,
+     "unassigned": 193,
+     "travel_sec": 408805
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0030",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 390,
+     "unassigned": 194,
+     "travel_sec": 408805
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0031",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 391,
+     "unassigned": 195,
+     "travel_sec": 408805
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0032",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 392,
+     "unassigned": 196,
+     "travel_sec": 408805
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0060",
+     "as_of": 37800,
+     "weighted": 191,
+     "weighted_total": 392,
+     "unassigned": 196,
+     "travel_sec": 408805
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0033",
+     "as_of": 38400,
+     "weighted": 191,
+     "weighted_total": 393,
+     "unassigned": 197,
+     "travel_sec": 408805
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0034",
+     "as_of": 38700,
+     "weighted": 191,
+     "weighted_total": 394,
+     "unassigned": 198,
+     "travel_sec": 408805
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0035",
+     "as_of": 38760,
+     "weighted": 191,
+     "weighted_total": 395,
+     "unassigned": 199,
+     "travel_sec": 408805
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0036",
+     "as_of": 39540,
+     "weighted": 191,
+     "weighted_total": 396,
+     "unassigned": 200,
+     "travel_sec": 408805
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0061",
+     "as_of": 39600,
+     "weighted": 191,
+     "weighted_total": 396,
+     "unassigned": 200,
+     "travel_sec": 408805
+    },
+    {
+     "version": 48,
+     "event": "EV-TR-20261026-02",
+     "as_of": 39762,
+     "weighted": 190,
+     "weighted_total": 396,
+     "unassigned": 201,
+     "travel_sec": 405923
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0037",
+     "as_of": 39900,
+     "weighted": 190,
+     "weighted_total": 397,
+     "unassigned": 202,
+     "travel_sec": 405923
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0038",
+     "as_of": 40020,
+     "weighted": 190,
+     "weighted_total": 398,
+     "unassigned": 203,
+     "travel_sec": 405923
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0055",
+     "as_of": 40200,
+     "weighted": 185,
+     "weighted_total": 398,
+     "unassigned": 208,
+     "travel_sec": 393369
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0039",
+     "as_of": 40320,
+     "weighted": 186,
+     "weighted_total": 399,
+     "unassigned": 208,
+     "travel_sec": 394702
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0040",
+     "as_of": 40860,
+     "weighted": 186,
+     "weighted_total": 400,
+     "unassigned": 209,
+     "travel_sec": 394702
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0041",
+     "as_of": 41160,
+     "weighted": 187,
+     "weighted_total": 401,
+     "unassigned": 209,
+     "travel_sec": 394964
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0062",
+     "as_of": 41400,
+     "weighted": 187,
+     "weighted_total": 401,
+     "unassigned": 209,
+     "travel_sec": 394964
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0042",
+     "as_of": 42540,
+     "weighted": 187,
+     "weighted_total": 402,
+     "unassigned": 210,
+     "travel_sec": 394964
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0043",
+     "as_of": 42780,
+     "weighted": 187,
+     "weighted_total": 403,
+     "unassigned": 211,
+     "travel_sec": 394964
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0044",
+     "as_of": 43080,
+     "weighted": 187,
+     "weighted_total": 404,
+     "unassigned": 212,
+     "travel_sec": 394964
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0045",
+     "as_of": 43200,
+     "weighted": 187,
+     "weighted_total": 405,
+     "unassigned": 213,
+     "travel_sec": 394964
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0056",
+     "as_of": 43200,
+     "weighted": 185,
+     "weighted_total": 405,
+     "unassigned": 215,
+     "travel_sec": 389599
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0063",
+     "as_of": 43200,
+     "weighted": 185,
+     "weighted_total": 405,
+     "unassigned": 215,
+     "travel_sec": 389599
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0046",
+     "as_of": 43500,
+     "weighted": 186,
+     "weighted_total": 406,
+     "unassigned": 215,
+     "travel_sec": 391861
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0047",
+     "as_of": 43740,
+     "weighted": 187,
+     "weighted_total": 407,
+     "unassigned": 215,
+     "travel_sec": 392692
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0048",
+     "as_of": 44460,
+     "weighted": 187,
+     "weighted_total": 408,
+     "unassigned": 216,
+     "travel_sec": 392692
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0049",
+     "as_of": 44520,
+     "weighted": 187,
+     "weighted_total": 409,
+     "unassigned": 217,
+     "travel_sec": 392692
+    },
+    {
+     "version": 66,
+     "event": "EV-20261026-0064",
+     "as_of": 45000,
+     "weighted": 187,
+     "weighted_total": 409,
+     "unassigned": 217,
+     "travel_sec": 392692
+    },
+    {
+     "version": 67,
+     "event": "EV-TR-20261026-04",
+     "as_of": 46511,
+     "weighted": 186,
+     "weighted_total": 409,
+     "unassigned": 218,
+     "travel_sec": 392068
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0065",
+     "as_of": 46800,
+     "weighted": 186,
+     "weighted_total": 409,
+     "unassigned": 218,
+     "travel_sec": 392068
+    },
+    {
+     "version": 69,
+     "event": "EV-TR-20261026-01",
+     "as_of": 47276,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 70,
+     "event": "EV-20261026-0066",
+     "as_of": 48600,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 71,
+     "event": "EV-20261026-0067",
+     "as_of": 50400,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0068",
+     "as_of": 52200,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 73,
+     "event": "EV-20261026-0069",
+     "as_of": 54000,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 74,
+     "event": "EV-TR-20261026-12",
+     "as_of": 55550,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 75,
+     "event": "EV-20261026-0070",
+     "as_of": 55800,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0071",
+     "as_of": 57600,
+     "weighted": 185,
+     "weighted_total": 409,
+     "unassigned": 219,
+     "travel_sec": 391738
+    },
+    {
+     "version": 77,
+     "event": "EV-20261026-0052",
+     "as_of": 58500,
+     "weighted": 185,
+     "weighted_total": 408,
+     "unassigned": 218,
+     "travel_sec": 391738
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0072",
+     "as_of": 59400,
+     "weighted": 185,
+     "weighted_total": 408,
+     "unassigned": 218,
+     "travel_sec": 391738
+    },
+    {
+     "version": 79,
+     "event": "EV-TR-20261026-05",
+     "as_of": 60686,
+     "weighted": 180,
+     "weighted_total": 408,
+     "unassigned": 218,
+     "travel_sec": 391738
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0073",
+     "as_of": 61200,
+     "weighted": 180,
+     "weighted_total": 408,
+     "unassigned": 218,
+     "travel_sec": 391738
+    },
+    {
+     "version": 81,
+     "event": "EV-TR-20261026-09",
+     "as_of": 62226,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0074",
+     "as_of": 63000,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    },
+    {
+     "version": 83,
+     "event": "EV-20261026-0075",
+     "as_of": 64800,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    },
+    {
+     "version": 84,
+     "event": "EV-20261026-0076",
+     "as_of": 66600,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0077",
+     "as_of": 68400,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0078",
+     "as_of": 70200,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    },
+    {
+     "version": 87,
+     "event": "EV-20261026-0079",
+     "as_of": 72000,
+     "weighted": 174,
+     "weighted_total": 408,
+     "unassigned": 219,
+     "travel_sec": 391697
+    }
+   ],
+   "errors": [],
+   "wall_sec": 1.6,
+   "variant": "baseline",
+   "seed": 23
+  },
+  {
+   "plan_sec": 2.49,
+   "events": 90,
+   "event_sec_max": 0.122,
+   "event_sec_p95": 0.071,
+   "versions": 91,
+   "violations_algorithm": 0,
+   "violations_event": 16,
+   "violations_sample": [
+    [
+     84,
+     "H2 ST-013/ORD-20261026-0168 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     84,
+     "H2 ST-013 #10: остановка вне смены",
+     "event"
+    ],
+    [
+     85,
+     "H2 ST-013/ORD-20261026-0168 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     85,
+     "H2 ST-013 #10: остановка вне смены",
+     "event"
+    ],
+    [
+     86,
+     "H2 ST-013/ORD-20261026-0168 #9: остановка вне смены",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.6271,
+   "initial_travel_h": 73.5,
+   "final_success": 200,
+   "final_orders": 395,
+   "final_weighted_share": 0.5123,
+   "final_unassigned": 188,
+   "final_travel_h": 72.4,
+   "final_cv": 0.212,
+   "reschedules": 188,
+   "moved_orders": 16,
+   "late_risk_timely": 0,
+   "late_risk_inevitable": 5,
+   "late_risk_timely_share": 0.0,
+   "pgp_precision": 0.0,
+   "pgp_recall": 0.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 227,
+     "weighted_total": 362,
+     "unassigned": 135,
+     "travel_sec": 264769
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 30780,
+     "weighted": 227,
+     "weighted_total": 363,
+     "unassigned": 136,
+     "travel_sec": 264769
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31140,
+     "weighted": 227,
+     "weighted_total": 364,
+     "unassigned": 137,
+     "travel_sec": 264769
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31260,
+     "weighted": 227,
+     "weighted_total": 365,
+     "unassigned": 138,
+     "travel_sec": 264769
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31800,
+     "weighted": 227,
+     "weighted_total": 366,
+     "unassigned": 139,
+     "travel_sec": 264769
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31920,
+     "weighted": 228,
+     "weighted_total": 367,
+     "unassigned": 139,
+     "travel_sec": 265018
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0006",
+     "as_of": 32340,
+     "weighted": 228,
+     "weighted_total": 368,
+     "unassigned": 140,
+     "travel_sec": 265018
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0057",
+     "as_of": 32400,
+     "weighted": 228,
+     "weighted_total": 368,
+     "unassigned": 140,
+     "travel_sec": 265018
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0007",
+     "as_of": 32580,
+     "weighted": 228,
+     "weighted_total": 369,
+     "unassigned": 141,
+     "travel_sec": 265018
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32880,
+     "weighted": 228,
+     "weighted_total": 370,
+     "unassigned": 142,
+     "travel_sec": 265018
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 33180,
+     "weighted": 228,
+     "weighted_total": 371,
+     "unassigned": 143,
+     "travel_sec": 265018
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33480,
+     "weighted": 228,
+     "weighted_total": 372,
+     "unassigned": 144,
+     "travel_sec": 265018
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33960,
+     "weighted": 228,
+     "weighted_total": 374,
+     "unassigned": 145,
+     "travel_sec": 265018
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 34020,
+     "weighted": 228,
+     "weighted_total": 375,
+     "unassigned": 146,
+     "travel_sec": 265018
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0058",
+     "as_of": 34200,
+     "weighted": 228,
+     "weighted_total": 375,
+     "unassigned": 146,
+     "travel_sec": 265018
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0013",
+     "as_of": 34680,
+     "weighted": 228,
+     "weighted_total": 376,
+     "unassigned": 147,
+     "travel_sec": 265018
+    },
+    {
+     "version": 17,
+     "event": "EV-TR-20261026-08",
+     "as_of": 34809,
+     "weighted": 227,
+     "weighted_total": 376,
+     "unassigned": 148,
+     "travel_sec": 264199
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0014",
+     "as_of": 35340,
+     "weighted": 227,
+     "weighted_total": 377,
+     "unassigned": 149,
+     "travel_sec": 264199
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0015",
+     "as_of": 35760,
+     "weighted": 227,
+     "weighted_total": 378,
+     "unassigned": 150,
+     "travel_sec": 264199
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0016",
+     "as_of": 36000,
+     "weighted": 227,
+     "weighted_total": 380,
+     "unassigned": 151,
+     "travel_sec": 264199
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0059",
+     "as_of": 36000,
+     "weighted": 227,
+     "weighted_total": 380,
+     "unassigned": 151,
+     "travel_sec": 264199
+    },
+    {
+     "version": 22,
+     "event": "EV-TR-20261026-02",
+     "as_of": 36079,
+     "weighted": 226,
+     "weighted_total": 380,
+     "unassigned": 152,
+     "travel_sec": 264692
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0017",
+     "as_of": 36240,
+     "weighted": 226,
+     "weighted_total": 381,
+     "unassigned": 153,
+     "travel_sec": 264692
+    },
+    {
+     "version": 24,
+     "event": "EV-20261026-0018",
+     "as_of": 36300,
+     "weighted": 226,
+     "weighted_total": 382,
+     "unassigned": 154,
+     "travel_sec": 264692
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0019",
+     "as_of": 36600,
+     "weighted": 226,
+     "weighted_total": 383,
+     "unassigned": 155,
+     "travel_sec": 264692
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0020",
+     "as_of": 36780,
+     "weighted": 226,
+     "weighted_total": 384,
+     "unassigned": 156,
+     "travel_sec": 264692
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0050",
+     "as_of": 36900,
+     "weighted": 226,
+     "weighted_total": 383,
+     "unassigned": 155,
+     "travel_sec": 264692
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0051",
+     "as_of": 36900,
+     "weighted": 226,
+     "weighted_total": 382,
+     "unassigned": 154,
+     "travel_sec": 265637
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0053",
+     "as_of": 36900,
+     "weighted": 226,
+     "weighted_total": 381,
+     "unassigned": 153,
+     "travel_sec": 267049
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0054",
+     "as_of": 36900,
+     "weighted": 226,
+     "weighted_total": 380,
+     "unassigned": 152,
+     "travel_sec": 268478
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0021",
+     "as_of": 37080,
+     "weighted": 226,
+     "weighted_total": 381,
+     "unassigned": 153,
+     "travel_sec": 268478
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0022",
+     "as_of": 37140,
+     "weighted": 226,
+     "weighted_total": 382,
+     "unassigned": 154,
+     "travel_sec": 268478
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0023",
+     "as_of": 37200,
+     "weighted": 226,
+     "weighted_total": 383,
+     "unassigned": 155,
+     "travel_sec": 268478
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0024",
+     "as_of": 37440,
+     "weighted": 226,
+     "weighted_total": 384,
+     "unassigned": 156,
+     "travel_sec": 268478
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0025",
+     "as_of": 37500,
+     "weighted": 226,
+     "weighted_total": 385,
+     "unassigned": 157,
+     "travel_sec": 268478
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0026",
+     "as_of": 37620,
+     "weighted": 226,
+     "weighted_total": 386,
+     "unassigned": 158,
+     "travel_sec": 268478
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0027",
+     "as_of": 37740,
+     "weighted": 226,
+     "weighted_total": 387,
+     "unassigned": 159,
+     "travel_sec": 268478
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0028",
+     "as_of": 37800,
+     "weighted": 226,
+     "weighted_total": 388,
+     "unassigned": 160,
+     "travel_sec": 268478
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0029",
+     "as_of": 37800,
+     "weighted": 226,
+     "weighted_total": 389,
+     "unassigned": 161,
+     "travel_sec": 268478
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0030",
+     "as_of": 37800,
+     "weighted": 226,
+     "weighted_total": 390,
+     "unassigned": 162,
+     "travel_sec": 268478
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0031",
+     "as_of": 37800,
+     "weighted": 226,
+     "weighted_total": 391,
+     "unassigned": 163,
+     "travel_sec": 268478
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0032",
+     "as_of": 37800,
+     "weighted": 226,
+     "weighted_total": 392,
+     "unassigned": 164,
+     "travel_sec": 268478
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0060",
+     "as_of": 37800,
+     "weighted": 226,
+     "weighted_total": 392,
+     "unassigned": 164,
+     "travel_sec": 268478
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0033",
+     "as_of": 38400,
+     "weighted": 226,
+     "weighted_total": 393,
+     "unassigned": 165,
+     "travel_sec": 268478
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0034",
+     "as_of": 38700,
+     "weighted": 226,
+     "weighted_total": 394,
+     "unassigned": 166,
+     "travel_sec": 268478
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0035",
+     "as_of": 38760,
+     "weighted": 227,
+     "weighted_total": 395,
+     "unassigned": 166,
+     "travel_sec": 268614
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0036",
+     "as_of": 39540,
+     "weighted": 227,
+     "weighted_total": 396,
+     "unassigned": 167,
+     "travel_sec": 268614
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0061",
+     "as_of": 39600,
+     "weighted": 227,
+     "weighted_total": 396,
+     "unassigned": 167,
+     "travel_sec": 268614
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0037",
+     "as_of": 39900,
+     "weighted": 227,
+     "weighted_total": 397,
+     "unassigned": 168,
+     "travel_sec": 268614
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0038",
+     "as_of": 40020,
+     "weighted": 227,
+     "weighted_total": 398,
+     "unassigned": 169,
+     "travel_sec": 268614
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0055",
+     "as_of": 40200,
+     "weighted": 220,
+     "weighted_total": 398,
+     "unassigned": 175,
+     "travel_sec": 262240
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0039",
+     "as_of": 40320,
+     "weighted": 220,
+     "weighted_total": 399,
+     "unassigned": 176,
+     "travel_sec": 262240
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0040",
+     "as_of": 40860,
+     "weighted": 220,
+     "weighted_total": 400,
+     "unassigned": 177,
+     "travel_sec": 262240
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0041",
+     "as_of": 41160,
+     "weighted": 221,
+     "weighted_total": 401,
+     "unassigned": 177,
+     "travel_sec": 262636
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0062",
+     "as_of": 41400,
+     "weighted": 221,
+     "weighted_total": 401,
+     "unassigned": 177,
+     "travel_sec": 262636
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0042",
+     "as_of": 42540,
+     "weighted": 221,
+     "weighted_total": 402,
+     "unassigned": 178,
+     "travel_sec": 262636
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0043",
+     "as_of": 42780,
+     "weighted": 221,
+     "weighted_total": 403,
+     "unassigned": 179,
+     "travel_sec": 262636
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0044",
+     "as_of": 43080,
+     "weighted": 221,
+     "weighted_total": 404,
+     "unassigned": 180,
+     "travel_sec": 262636
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0045",
+     "as_of": 43200,
+     "weighted": 221,
+     "weighted_total": 405,
+     "unassigned": 181,
+     "travel_sec": 262636
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0056",
+     "as_of": 43200,
+     "weighted": 220,
+     "weighted_total": 405,
+     "unassigned": 182,
+     "travel_sec": 262389
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0063",
+     "as_of": 43200,
+     "weighted": 220,
+     "weighted_total": 405,
+     "unassigned": 182,
+     "travel_sec": 262389
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0046",
+     "as_of": 43500,
+     "weighted": 220,
+     "weighted_total": 406,
+     "unassigned": 183,
+     "travel_sec": 262389
+    },
+    {
+     "version": 63,
+     "event": "EV-TR-20261026-03",
+     "as_of": 43674,
+     "weighted": 219,
+     "weighted_total": 406,
+     "unassigned": 183,
+     "travel_sec": 262854
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0047",
+     "as_of": 43740,
+     "weighted": 219,
+     "weighted_total": 407,
+     "unassigned": 184,
+     "travel_sec": 262854
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0048",
+     "as_of": 44460,
+     "weighted": 219,
+     "weighted_total": 408,
+     "unassigned": 185,
+     "travel_sec": 262854
+    },
+    {
+     "version": 66,
+     "event": "EV-20261026-0049",
+     "as_of": 44520,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 262854
+    },
+    {
+     "version": 67,
+     "event": "EV-20261026-0064",
+     "as_of": 45000,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 262854
+    },
+    {
+     "version": 68,
+     "event": "EV-TR-20261026-04",
+     "as_of": 46198,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 262727
+    },
+    {
+     "version": 69,
+     "event": "EV-20261026-0065",
+     "as_of": 46800,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 262727
+    },
+    {
+     "version": 70,
+     "event": "EV-TR-20261026-13",
+     "as_of": 47046,
+     "weighted": 220,
+     "weighted_total": 409,
+     "unassigned": 185,
+     "travel_sec": 262850
+    },
+    {
+     "version": 71,
+     "event": "EV-TR-20261026-01",
+     "as_of": 47650,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 261582
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0066",
+     "as_of": 48600,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 261582
+    },
+    {
+     "version": 73,
+     "event": "EV-20261026-0067",
+     "as_of": 50400,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 261582
+    },
+    {
+     "version": 74,
+     "event": "EV-20261026-0068",
+     "as_of": 52200,
+     "weighted": 219,
+     "weighted_total": 409,
+     "unassigned": 186,
+     "travel_sec": 261582
+    },
+    {
+     "version": 75,
+     "event": "EV-TR-20261026-07",
+     "as_of": 53068,
+     "weighted": 218,
+     "weighted_total": 409,
+     "unassigned": 187,
+     "travel_sec": 260517
+    },
+    {
+     "version": 76,
+     "event": "EV-20261026-0069",
+     "as_of": 54000,
+     "weighted": 218,
+     "weighted_total": 409,
+     "unassigned": 187,
+     "travel_sec": 260517
+    },
+    {
+     "version": 77,
+     "event": "EV-TR-20261026-09",
+     "as_of": 55800,
+     "weighted": 217,
+     "weighted_total": 409,
+     "unassigned": 188,
+     "travel_sec": 259900
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0070",
+     "as_of": 55800,
+     "weighted": 217,
+     "weighted_total": 409,
+     "unassigned": 188,
+     "travel_sec": 259900
+    },
+    {
+     "version": 79,
+     "event": "EV-TR-20261026-06",
+     "as_of": 56113,
+     "weighted": 216,
+     "weighted_total": 409,
+     "unassigned": 189,
+     "travel_sec": 258993
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0071",
+     "as_of": 57600,
+     "weighted": 216,
+     "weighted_total": 409,
+     "unassigned": 189,
+     "travel_sec": 258993
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0052",
+     "as_of": 58500,
+     "weighted": 216,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 82,
+     "event": "EV-20261026-0072",
+     "as_of": 59400,
+     "weighted": 216,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 83,
+     "event": "EV-TR-20261026-12",
+     "as_of": 60883,
+     "weighted": 216,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 84,
+     "event": "EV-TR-20261026-05",
+     "as_of": 60897,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0073",
+     "as_of": 61200,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0074",
+     "as_of": 63000,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 87,
+     "event": "EV-20261026-0075",
+     "as_of": 64800,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 88,
+     "event": "EV-20261026-0076",
+     "as_of": 66600,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0077",
+     "as_of": 68400,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 90,
+     "event": "EV-20261026-0078",
+     "as_of": 70200,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    },
+    {
+     "version": 91,
+     "event": "EV-20261026-0079",
+     "as_of": 72000,
+     "weighted": 209,
+     "weighted_total": 408,
+     "unassigned": 188,
+     "travel_sec": 260627
+    }
+   ],
+   "errors": [],
+   "wall_sec": 5.1,
+   "variant": "basic",
+   "seed": 23
+  },
+  {
+   "plan_sec": 63.08,
+   "events": 90,
+   "event_sec_max": 0.084,
+   "event_sec_p95": 0.06,
+   "versions": 91,
+   "violations_algorithm": 0,
+   "violations_event": 8,
+   "violations_sample": [
+    [
+     84,
+     "H2 ST-016 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     85,
+     "H2 ST-016 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     86,
+     "H2 ST-016 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     87,
+     "H2 ST-016 #9: остановка вне смены",
+     "event"
+    ],
+    [
+     88,
+     "H2 ST-016 #9: остановка вне смены",
+     "event"
+    ]
+   ],
+   "initial_weighted_share": 0.7019,
+   "initial_travel_h": 60.3,
+   "final_success": 226,
+   "final_orders": 389,
+   "final_weighted_share": 0.5821,
+   "final_unassigned": 157,
+   "final_travel_h": 59.9,
+   "final_cv": 0.193,
+   "reschedules": 157,
+   "moved_orders": 14,
+   "late_risk_timely": 10,
+   "late_risk_inevitable": 4,
+   "late_risk_timely_share": 1.0,
+   "pgp_precision": 1.0,
+   "pgp_recall": 1.0,
+   "trace": [
+    {
+     "version": 1,
+     "event": null,
+     "as_of": 30600,
+     "weighted": 252,
+     "weighted_total": 359,
+     "unassigned": 107,
+     "travel_sec": 217172
+    },
+    {
+     "version": 2,
+     "event": "EV-20261026-0001",
+     "as_of": 30780,
+     "weighted": 252,
+     "weighted_total": 360,
+     "unassigned": 108,
+     "travel_sec": 217172
+    },
+    {
+     "version": 3,
+     "event": "EV-20261026-0002",
+     "as_of": 31140,
+     "weighted": 252,
+     "weighted_total": 361,
+     "unassigned": 109,
+     "travel_sec": 217172
+    },
+    {
+     "version": 4,
+     "event": "EV-20261026-0003",
+     "as_of": 31260,
+     "weighted": 252,
+     "weighted_total": 362,
+     "unassigned": 110,
+     "travel_sec": 217172
+    },
+    {
+     "version": 5,
+     "event": "EV-20261026-0004",
+     "as_of": 31800,
+     "weighted": 252,
+     "weighted_total": 363,
+     "unassigned": 111,
+     "travel_sec": 217172
+    },
+    {
+     "version": 6,
+     "event": "EV-20261026-0005",
+     "as_of": 31920,
+     "weighted": 252,
+     "weighted_total": 364,
+     "unassigned": 112,
+     "travel_sec": 217172
+    },
+    {
+     "version": 7,
+     "event": "EV-20261026-0006",
+     "as_of": 32340,
+     "weighted": 252,
+     "weighted_total": 365,
+     "unassigned": 113,
+     "travel_sec": 217172
+    },
+    {
+     "version": 8,
+     "event": "EV-20261026-0057",
+     "as_of": 32400,
+     "weighted": 252,
+     "weighted_total": 365,
+     "unassigned": 113,
+     "travel_sec": 217172
+    },
+    {
+     "version": 9,
+     "event": "EV-20261026-0007",
+     "as_of": 32580,
+     "weighted": 252,
+     "weighted_total": 366,
+     "unassigned": 114,
+     "travel_sec": 217172
+    },
+    {
+     "version": 10,
+     "event": "EV-20261026-0008",
+     "as_of": 32880,
+     "weighted": 252,
+     "weighted_total": 367,
+     "unassigned": 115,
+     "travel_sec": 217172
+    },
+    {
+     "version": 11,
+     "event": "EV-20261026-0009",
+     "as_of": 33180,
+     "weighted": 252,
+     "weighted_total": 368,
+     "unassigned": 116,
+     "travel_sec": 217172
+    },
+    {
+     "version": 12,
+     "event": "EV-20261026-0010",
+     "as_of": 33480,
+     "weighted": 252,
+     "weighted_total": 369,
+     "unassigned": 117,
+     "travel_sec": 217172
+    },
+    {
+     "version": 13,
+     "event": "EV-20261026-0011",
+     "as_of": 33960,
+     "weighted": 252,
+     "weighted_total": 371,
+     "unassigned": 118,
+     "travel_sec": 217172
+    },
+    {
+     "version": 14,
+     "event": "EV-20261026-0012",
+     "as_of": 34020,
+     "weighted": 252,
+     "weighted_total": 372,
+     "unassigned": 119,
+     "travel_sec": 217172
+    },
+    {
+     "version": 15,
+     "event": "EV-20261026-0058",
+     "as_of": 34200,
+     "weighted": 252,
+     "weighted_total": 372,
+     "unassigned": 119,
+     "travel_sec": 217172
+    },
+    {
+     "version": 16,
+     "event": "EV-20261026-0013",
+     "as_of": 34680,
+     "weighted": 252,
+     "weighted_total": 373,
+     "unassigned": 120,
+     "travel_sec": 217172
+    },
+    {
+     "version": 17,
+     "event": "EV-TR-20261026-08",
+     "as_of": 34809,
+     "weighted": 251,
+     "weighted_total": 373,
+     "unassigned": 121,
+     "travel_sec": 216951
+    },
+    {
+     "version": 18,
+     "event": "EV-20261026-0014",
+     "as_of": 35340,
+     "weighted": 251,
+     "weighted_total": 374,
+     "unassigned": 122,
+     "travel_sec": 216951
+    },
+    {
+     "version": 19,
+     "event": "EV-20261026-0015",
+     "as_of": 35760,
+     "weighted": 251,
+     "weighted_total": 375,
+     "unassigned": 123,
+     "travel_sec": 216951
+    },
+    {
+     "version": 20,
+     "event": "EV-20261026-0016",
+     "as_of": 36000,
+     "weighted": 251,
+     "weighted_total": 377,
+     "unassigned": 124,
+     "travel_sec": 216951
+    },
+    {
+     "version": 21,
+     "event": "EV-20261026-0059",
+     "as_of": 36000,
+     "weighted": 251,
+     "weighted_total": 377,
+     "unassigned": 124,
+     "travel_sec": 216951
+    },
+    {
+     "version": 22,
+     "event": "EV-20261026-0017",
+     "as_of": 36240,
+     "weighted": 251,
+     "weighted_total": 378,
+     "unassigned": 125,
+     "travel_sec": 216951
+    },
+    {
+     "version": 23,
+     "event": "EV-20261026-0018",
+     "as_of": 36300,
+     "weighted": 251,
+     "weighted_total": 379,
+     "unassigned": 126,
+     "travel_sec": 216951
+    },
+    {
+     "version": 24,
+     "event": "EV-20261026-0019",
+     "as_of": 36600,
+     "weighted": 251,
+     "weighted_total": 380,
+     "unassigned": 127,
+     "travel_sec": 216951
+    },
+    {
+     "version": 25,
+     "event": "EV-20261026-0020",
+     "as_of": 36780,
+     "weighted": 251,
+     "weighted_total": 381,
+     "unassigned": 128,
+     "travel_sec": 216951
+    },
+    {
+     "version": 26,
+     "event": "EV-20261026-0050",
+     "as_of": 36900,
+     "weighted": 251,
+     "weighted_total": 380,
+     "unassigned": 127,
+     "travel_sec": 216951
+    },
+    {
+     "version": 27,
+     "event": "EV-20261026-0051",
+     "as_of": 36900,
+     "weighted": 251,
+     "weighted_total": 379,
+     "unassigned": 126,
+     "travel_sec": 218550
+    },
+    {
+     "version": 28,
+     "event": "EV-20261026-0053",
+     "as_of": 36900,
+     "weighted": 250,
+     "weighted_total": 378,
+     "unassigned": 126,
+     "travel_sec": 218373
+    },
+    {
+     "version": 29,
+     "event": "EV-20261026-0054",
+     "as_of": 36900,
+     "weighted": 250,
+     "weighted_total": 377,
+     "unassigned": 125,
+     "travel_sec": 218373
+    },
+    {
+     "version": 30,
+     "event": "EV-20261026-0021",
+     "as_of": 37080,
+     "weighted": 250,
+     "weighted_total": 378,
+     "unassigned": 126,
+     "travel_sec": 218373
+    },
+    {
+     "version": 31,
+     "event": "EV-20261026-0022",
+     "as_of": 37140,
+     "weighted": 250,
+     "weighted_total": 379,
+     "unassigned": 127,
+     "travel_sec": 218373
+    },
+    {
+     "version": 32,
+     "event": "EV-20261026-0023",
+     "as_of": 37200,
+     "weighted": 250,
+     "weighted_total": 380,
+     "unassigned": 128,
+     "travel_sec": 218373
+    },
+    {
+     "version": 33,
+     "event": "EV-20261026-0024",
+     "as_of": 37440,
+     "weighted": 250,
+     "weighted_total": 381,
+     "unassigned": 129,
+     "travel_sec": 218373
+    },
+    {
+     "version": 34,
+     "event": "EV-20261026-0025",
+     "as_of": 37500,
+     "weighted": 250,
+     "weighted_total": 382,
+     "unassigned": 130,
+     "travel_sec": 218373
+    },
+    {
+     "version": 35,
+     "event": "EV-20261026-0026",
+     "as_of": 37620,
+     "weighted": 250,
+     "weighted_total": 383,
+     "unassigned": 131,
+     "travel_sec": 218373
+    },
+    {
+     "version": 36,
+     "event": "EV-20261026-0027",
+     "as_of": 37740,
+     "weighted": 250,
+     "weighted_total": 384,
+     "unassigned": 132,
+     "travel_sec": 218373
+    },
+    {
+     "version": 37,
+     "event": "EV-20261026-0028",
+     "as_of": 37800,
+     "weighted": 250,
+     "weighted_total": 385,
+     "unassigned": 133,
+     "travel_sec": 218373
+    },
+    {
+     "version": 38,
+     "event": "EV-20261026-0029",
+     "as_of": 37800,
+     "weighted": 250,
+     "weighted_total": 386,
+     "unassigned": 134,
+     "travel_sec": 218373
+    },
+    {
+     "version": 39,
+     "event": "EV-20261026-0030",
+     "as_of": 37800,
+     "weighted": 250,
+     "weighted_total": 387,
+     "unassigned": 135,
+     "travel_sec": 218373
+    },
+    {
+     "version": 40,
+     "event": "EV-20261026-0031",
+     "as_of": 37800,
+     "weighted": 250,
+     "weighted_total": 388,
+     "unassigned": 136,
+     "travel_sec": 218373
+    },
+    {
+     "version": 41,
+     "event": "EV-20261026-0032",
+     "as_of": 37800,
+     "weighted": 250,
+     "weighted_total": 389,
+     "unassigned": 137,
+     "travel_sec": 218373
+    },
+    {
+     "version": 42,
+     "event": "EV-20261026-0060",
+     "as_of": 37800,
+     "weighted": 250,
+     "weighted_total": 389,
+     "unassigned": 137,
+     "travel_sec": 218373
+    },
+    {
+     "version": 43,
+     "event": "EV-20261026-0033",
+     "as_of": 38400,
+     "weighted": 250,
+     "weighted_total": 387,
+     "unassigned": 135,
+     "travel_sec": 218373
+    },
+    {
+     "version": 44,
+     "event": "EV-20261026-0034",
+     "as_of": 38700,
+     "weighted": 250,
+     "weighted_total": 388,
+     "unassigned": 136,
+     "travel_sec": 218373
+    },
+    {
+     "version": 45,
+     "event": "EV-20261026-0035",
+     "as_of": 38760,
+     "weighted": 251,
+     "weighted_total": 389,
+     "unassigned": 136,
+     "travel_sec": 219559
+    },
+    {
+     "version": 46,
+     "event": "EV-20261026-0036",
+     "as_of": 39540,
+     "weighted": 251,
+     "weighted_total": 390,
+     "unassigned": 137,
+     "travel_sec": 219559
+    },
+    {
+     "version": 47,
+     "event": "EV-20261026-0061",
+     "as_of": 39600,
+     "weighted": 251,
+     "weighted_total": 390,
+     "unassigned": 137,
+     "travel_sec": 219559
+    },
+    {
+     "version": 48,
+     "event": "EV-20261026-0037",
+     "as_of": 39900,
+     "weighted": 251,
+     "weighted_total": 391,
+     "unassigned": 138,
+     "travel_sec": 219559
+    },
+    {
+     "version": 49,
+     "event": "EV-20261026-0038",
+     "as_of": 40020,
+     "weighted": 251,
+     "weighted_total": 392,
+     "unassigned": 139,
+     "travel_sec": 219559
+    },
+    {
+     "version": 50,
+     "event": "EV-20261026-0055",
+     "as_of": 40200,
+     "weighted": 242,
+     "weighted_total": 392,
+     "unassigned": 146,
+     "travel_sec": 213886
+    },
+    {
+     "version": 51,
+     "event": "EV-20261026-0039",
+     "as_of": 40320,
+     "weighted": 242,
+     "weighted_total": 393,
+     "unassigned": 147,
+     "travel_sec": 213886
+    },
+    {
+     "version": 52,
+     "event": "EV-20261026-0040",
+     "as_of": 40860,
+     "weighted": 242,
+     "weighted_total": 394,
+     "unassigned": 148,
+     "travel_sec": 213886
+    },
+    {
+     "version": 53,
+     "event": "EV-20261026-0041",
+     "as_of": 41160,
+     "weighted": 243,
+     "weighted_total": 395,
+     "unassigned": 148,
+     "travel_sec": 215210
+    },
+    {
+     "version": 54,
+     "event": "EV-20261026-0062",
+     "as_of": 41400,
+     "weighted": 243,
+     "weighted_total": 395,
+     "unassigned": 148,
+     "travel_sec": 215210
+    },
+    {
+     "version": 55,
+     "event": "EV-20261026-0042",
+     "as_of": 42540,
+     "weighted": 243,
+     "weighted_total": 396,
+     "unassigned": 149,
+     "travel_sec": 215210
+    },
+    {
+     "version": 56,
+     "event": "EV-20261026-0043",
+     "as_of": 42780,
+     "weighted": 243,
+     "weighted_total": 397,
+     "unassigned": 150,
+     "travel_sec": 215210
+    },
+    {
+     "version": 57,
+     "event": "EV-20261026-0044",
+     "as_of": 43080,
+     "weighted": 243,
+     "weighted_total": 398,
+     "unassigned": 151,
+     "travel_sec": 215210
+    },
+    {
+     "version": 58,
+     "event": "EV-20261026-0045",
+     "as_of": 43200,
+     "weighted": 243,
+     "weighted_total": 399,
+     "unassigned": 152,
+     "travel_sec": 215210
+    },
+    {
+     "version": 59,
+     "event": "EV-20261026-0056",
+     "as_of": 43200,
+     "weighted": 242,
+     "weighted_total": 399,
+     "unassigned": 152,
+     "travel_sec": 215105
+    },
+    {
+     "version": 60,
+     "event": "EV-20261026-0063",
+     "as_of": 43200,
+     "weighted": 242,
+     "weighted_total": 399,
+     "unassigned": 152,
+     "travel_sec": 215105
+    },
+    {
+     "version": 61,
+     "event": "EV-20261026-0046",
+     "as_of": 43500,
+     "weighted": 242,
+     "weighted_total": 400,
+     "unassigned": 153,
+     "travel_sec": 215105
+    },
+    {
+     "version": 62,
+     "event": "EV-20261026-0047",
+     "as_of": 43740,
+     "weighted": 242,
+     "weighted_total": 401,
+     "unassigned": 154,
+     "travel_sec": 215105
+    },
+    {
+     "version": 63,
+     "event": "EV-20261026-0048",
+     "as_of": 44460,
+     "weighted": 242,
+     "weighted_total": 402,
+     "unassigned": 155,
+     "travel_sec": 215105
+    },
+    {
+     "version": 64,
+     "event": "EV-20261026-0049",
+     "as_of": 44520,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215105
+    },
+    {
+     "version": 65,
+     "event": "EV-20261026-0064",
+     "as_of": 45000,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215105
+    },
+    {
+     "version": 66,
+     "event": "EV-TR-20261026-03",
+     "as_of": 46188,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 67,
+     "event": "EV-TR-20261026-04",
+     "as_of": 46198,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 68,
+     "event": "EV-20261026-0065",
+     "as_of": 46800,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 69,
+     "event": "EV-TR-20261026-01",
+     "as_of": 47806,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 70,
+     "event": "EV-TR-20261026-11",
+     "as_of": 48064,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 71,
+     "event": "EV-20261026-0066",
+     "as_of": 48600,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 72,
+     "event": "EV-20261026-0067",
+     "as_of": 50400,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215872
+    },
+    {
+     "version": 73,
+     "event": "EV-TR-20261026-07",
+     "as_of": 50915,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215601
+    },
+    {
+     "version": 74,
+     "event": "EV-20261026-0068",
+     "as_of": 52200,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215601
+    },
+    {
+     "version": 75,
+     "event": "EV-20261026-0069",
+     "as_of": 54000,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215601
+    },
+    {
+     "version": 76,
+     "event": "EV-TR-20261026-14",
+     "as_of": 55107,
+     "weighted": 242,
+     "weighted_total": 403,
+     "unassigned": 156,
+     "travel_sec": 215848
+    },
+    {
+     "version": 77,
+     "event": "EV-TR-20261026-09",
+     "as_of": 55800,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215724
+    },
+    {
+     "version": 78,
+     "event": "EV-20261026-0070",
+     "as_of": 55800,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215724
+    },
+    {
+     "version": 79,
+     "event": "EV-TR-20261026-12",
+     "as_of": 56839,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215724
+    },
+    {
+     "version": 80,
+     "event": "EV-20261026-0071",
+     "as_of": 57600,
+     "weighted": 241,
+     "weighted_total": 403,
+     "unassigned": 157,
+     "travel_sec": 215724
+    },
+    {
+     "version": 81,
+     "event": "EV-20261026-0052",
+     "as_of": 58500,
+     "weighted": 241,
+     "weighted_total": 402,
+     "unassigned": 156,
+     "travel_sec": 215724
+    },
+    {
+     "version": 82,
+     "event": "EV-TR-20261026-05",
+     "as_of": 58762,
+     "weighted": 241,
+     "weighted_total": 402,
+     "unassigned": 156,
+     "travel_sec": 215700
+    },
+    {
+     "version": 83,
+     "event": "EV-20261026-0072",
+     "as_of": 59400,
+     "weighted": 241,
+     "weighted_total": 402,
+     "unassigned": 156,
+     "travel_sec": 215700
+    },
+    {
+     "version": 84,
+     "event": "EV-TR-20261026-06",
+     "as_of": 59667,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 85,
+     "event": "EV-20261026-0073",
+     "as_of": 61200,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 86,
+     "event": "EV-20261026-0074",
+     "as_of": 63000,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 87,
+     "event": "EV-20261026-0075",
+     "as_of": 64800,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 88,
+     "event": "EV-20261026-0076",
+     "as_of": 66600,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 89,
+     "event": "EV-20261026-0077",
+     "as_of": 68400,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 90,
+     "event": "EV-20261026-0078",
+     "as_of": 70200,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    },
+    {
+     "version": 91,
+     "event": "EV-20261026-0079",
+     "as_of": 72000,
+     "weighted": 234,
+     "weighted_total": 402,
+     "unassigned": 157,
+     "travel_sec": 215501
+    }
+   ],
+   "errors": [],
+   "wall_sec": 65.4,
+   "variant": "full",
+   "seed": 23
+  }
+ ]
+}

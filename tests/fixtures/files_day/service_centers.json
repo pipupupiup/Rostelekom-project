@@ -1,0 +1,62 @@
+[
+  {
+    "service_center_id": "SC-01",
+    "name": "СЦ SC-01",
+    "address": "г. Екатеринбург, СЦ SC-01",
+    "lat": 56.8941,
+    "lon": 60.6105,
+    "opening_hours": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "restock_duration_min": 15
+  },
+  {
+    "service_center_id": "SC-02",
+    "name": "СЦ SC-02",
+    "address": "г. Екатеринбург, СЦ SC-02",
+    "lat": 56.79,
+    "lon": 60.63,
+    "opening_hours": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "restock_duration_min": 15
+  },
+  {
+    "service_center_id": "SC-03",
+    "name": "СЦ SC-03",
+    "address": "г. Екатеринбург, СЦ SC-03",
+    "lat": 56.838,
+    "lon": 60.52,
+    "opening_hours": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "restock_duration_min": 15
+  },
+  {
+    "service_center_id": "SC-04",
+    "name": "СЦ SC-04",
+    "address": "г. Екатеринбург, СЦ SC-04",
+    "lat": 56.83,
+    "lon": 60.7,
+    "opening_hours": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "restock_duration_min": 15
+  },
+  {
+    "service_center_id": "SC-05",
+    "name": "СЦ SC-05",
+    "address": "г. Екатеринбург, СЦ SC-05",
+    "lat": 56.9,
+    "lon": 60.53,
+    "opening_hours": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "restock_duration_min": 15
+  }
+]

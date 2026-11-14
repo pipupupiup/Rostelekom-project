@@ -1,0 +1,24 @@
+{
+ "data": "SYNTHETIC",
+ "migrate_sec": 0.1,
+ "health_ready_sec": 0.45,
+ "ui_status": 200,
+ "http_errors": [],
+ "put_reference_sec": 0.03,
+ "put_matrix_sec": 0.82,
+ "put_day_sec": 0.05,
+ "plan_sec": 73.48,
+ "events": 88,
+ "event_http_sec_max": 0.09,
+ "final_version": 89,
+ "persistence": {
+  "enabled": true,
+  "saved_version": 89,
+  "errors": 0,
+  "last_error": null
+ },
+ "db_versions": 89,
+ "db_matches_service": true,
+ "db_events": 88,
+ "db_audit_rows": 57
+}

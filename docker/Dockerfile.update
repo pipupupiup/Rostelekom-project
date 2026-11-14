@@ -1,0 +1,21 @@
+# Обновление готового образа без доступа к реестрам (офлайн): новый код поверх ado-app:latest.
+#
+#   cd frontend && npm run build && cd ..          # собрать UI (нужен leaflet в node_modules)
+#   docker build -f docker/Dockerfile.update --build-arg BASE=ado-app:latest -t ado-app:next .
+#
+# Зависимости Python (FastAPI, uvicorn, SQLAlchemy, psycopg, alembic) берутся из базового образа —
+# список в pyproject.toml не менялся. Обычная сборка с нуля — основной Dockerfile.
+ARG BASE=ado-app:latest
+FROM ${BASE}
+WORKDIR /app
+RUN rm -rf /app/src /app/frontend/dist /usr/local/lib/python3.12/site-packages/ado
+COPY pyproject.toml README.md alembic.ini ./
+COPY spec ./spec
+COPY migrations ./migrations
+COPY scripts ./scripts
+COPY src ./src
+COPY src/ado /usr/local/lib/python3.12/site-packages/ado
+COPY frontend/dist ./frontend/dist
+COPY docker/entrypoint.sh /entrypoint.sh
+RUN python -c "import ado.api.app, ado.optimization.breaks, ado.routing.geometry; print('ado ok')" \
+ && test -f /app/frontend/dist/index.html

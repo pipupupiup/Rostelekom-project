@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+data/raw/
+*.osrm*
+frontend/node_modules/
+frontend/dist/
+benchmarks/results/*.csv
+.env
+# большие и локальные файлы — не для репозитория
+osm/
+data/osm/
+*.osm.pbf
+*.tar
+*.dump
+*.zip
+node_modules/

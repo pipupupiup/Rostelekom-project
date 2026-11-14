@@ -1,0 +1,762 @@
+[
+  {
+    "access_node_id": "AN-0001",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 1",
+    "address": "г. Екатеринбург",
+    "lat": 56.775153,
+    "lon": 60.648318,
+    "buildings": [
+      {
+        "building_id": "B-00001",
+        "address": "г. Екатеринбург, дом B-00001",
+        "lat": 56.775583,
+        "lon": 60.645631,
+        "building_type": "PRIVATE",
+        "overhead_line": true,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00002",
+        "address": "г. Екатеринбург, дом B-00002",
+        "lat": 56.769849,
+        "lon": 60.648466,
+        "building_type": "PRIVATE",
+        "overhead_line": true,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00003",
+        "address": "г. Екатеринбург, дом B-00003",
+        "lat": 56.769603,
+        "lon": 60.646991,
+        "building_type": "PRIVATE",
+        "overhead_line": true,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0002",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 2",
+    "address": "г. Екатеринбург",
+    "lat": 56.764328,
+    "lon": 60.571337,
+    "buildings": [
+      {
+        "building_id": "B-00004",
+        "address": "г. Екатеринбург, дом B-00004",
+        "lat": 56.759814,
+        "lon": 60.565801,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00005",
+        "address": "г. Екатеринбург, дом B-00005",
+        "lat": 56.765858,
+        "lon": 60.580291,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00006",
+        "address": "г. Екатеринбург, дом B-00006",
+        "lat": 56.765254,
+        "lon": 60.56927,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0003",
+    "node_type": "CMTS",
+    "technology": "DOCSIS",
+    "name": "CMTS узел 3",
+    "address": "г. Екатеринбург",
+    "lat": 56.756385,
+    "lon": 60.718879,
+    "buildings": [
+      {
+        "building_id": "B-00007",
+        "address": "г. Екатеринбург, дом B-00007",
+        "lat": 56.752116,
+        "lon": 60.711235,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00008",
+        "address": "г. Екатеринбург, дом B-00008",
+        "lat": 56.754087,
+        "lon": 60.725202,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00009",
+        "address": "г. Екатеринбург, дом B-00009",
+        "lat": 56.752554,
+        "lon": 60.720511,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0004",
+    "node_type": "SWITCH",
+    "technology": "FTTB",
+    "name": "SWITCH узел 4",
+    "address": "г. Екатеринбург",
+    "lat": 56.815032,
+    "lon": 60.613233,
+    "buildings": [
+      {
+        "building_id": "B-00010",
+        "address": "г. Екатеринбург, дом B-00010",
+        "lat": 56.809747,
+        "lon": 60.607352,
+        "building_type": "PRIVATE",
+        "overhead_line": true,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00011",
+        "address": "г. Екатеринбург, дом B-00011",
+        "lat": 56.817196,
+        "lon": 60.611785,
+        "building_type": "PRIVATE",
+        "overhead_line": true,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00012",
+        "address": "г. Екатеринбург, дом B-00012",
+        "lat": 56.812801,
+        "lon": 60.614944,
+        "building_type": "PRIVATE",
+        "overhead_line": true,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0005",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 5",
+    "address": "г. Екатеринбург",
+    "lat": 56.801958,
+    "lon": 60.697089,
+    "buildings": [
+      {
+        "building_id": "B-00013",
+        "address": "г. Екатеринбург, дом B-00013",
+        "lat": 56.798887,
+        "lon": 60.698577,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-04"
+      },
+      {
+        "building_id": "B-00014",
+        "address": "г. Екатеринбург, дом B-00014",
+        "lat": 56.80226,
+        "lon": 60.704592,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-04"
+      },
+      {
+        "building_id": "B-00015",
+        "address": "г. Екатеринбург, дом B-00015",
+        "lat": 56.804711,
+        "lon": 60.692848,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-04"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0006",
+    "node_type": "CMTS",
+    "technology": "DOCSIS",
+    "name": "CMTS узел 6",
+    "address": "г. Екатеринбург",
+    "lat": 56.769252,
+    "lon": 60.569162,
+    "buildings": [
+      {
+        "building_id": "B-00016",
+        "address": "г. Екатеринбург, дом B-00016",
+        "lat": 56.765076,
+        "lon": 60.568941,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00017",
+        "address": "г. Екатеринбург, дом B-00017",
+        "lat": 56.763722,
+        "lon": 60.572526,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00018",
+        "address": "г. Екатеринбург, дом B-00018",
+        "lat": 56.772427,
+        "lon": 60.570622,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0007",
+    "node_type": "DSLAM",
+    "technology": "XDSL",
+    "name": "DSLAM узел 7",
+    "address": "г. Екатеринбург",
+    "lat": 56.804475,
+    "lon": 60.6634,
+    "buildings": [
+      {
+        "building_id": "B-00019",
+        "address": "г. Екатеринбург, дом B-00019",
+        "lat": 56.805433,
+        "lon": 60.662525,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00020",
+        "address": "г. Екатеринбург, дом B-00020",
+        "lat": 56.808554,
+        "lon": 60.672294,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00021",
+        "address": "г. Екатеринбург, дом B-00021",
+        "lat": 56.804164,
+        "lon": 60.666683,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0008",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 8",
+    "address": "г. Екатеринбург",
+    "lat": 56.874269,
+    "lon": 60.647024,
+    "buildings": [
+      {
+        "building_id": "B-00022",
+        "address": "г. Екатеринбург, дом B-00022",
+        "lat": 56.878132,
+        "lon": 60.642716,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00023",
+        "address": "г. Екатеринбург, дом B-00023",
+        "lat": 56.872898,
+        "lon": 60.650397,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00024",
+        "address": "г. Екатеринбург, дом B-00024",
+        "lat": 56.868539,
+        "lon": 60.646258,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0009",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 9",
+    "address": "г. Екатеринбург",
+    "lat": 56.769077,
+    "lon": 60.447045,
+    "buildings": [
+      {
+        "building_id": "B-00025",
+        "address": "г. Екатеринбург, дом B-00025",
+        "lat": 56.764629,
+        "lon": 60.441997,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00026",
+        "address": "г. Екатеринбург, дом B-00026",
+        "lat": 56.767769,
+        "lon": 60.454473,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00027",
+        "address": "г. Екатеринбург, дом B-00027",
+        "lat": 56.764044,
+        "lon": 60.446028,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0010",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 10",
+    "address": "г. Екатеринбург",
+    "lat": 56.907009,
+    "lon": 60.705555,
+    "buildings": [
+      {
+        "building_id": "B-00028",
+        "address": "г. Екатеринбург, дом B-00028",
+        "lat": 56.90435,
+        "lon": 60.703861,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00029",
+        "address": "г. Екатеринбург, дом B-00029",
+        "lat": 56.905314,
+        "lon": 60.713239,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00030",
+        "address": "г. Екатеринбург, дом B-00030",
+        "lat": 56.912502,
+        "lon": 60.698574,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0011",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 11",
+    "address": "г. Екатеринбург",
+    "lat": 56.789752,
+    "lon": 60.506334,
+    "buildings": [
+      {
+        "building_id": "B-00031",
+        "address": "г. Екатеринбург, дом B-00031",
+        "lat": 56.790822,
+        "lon": 60.501589,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00032",
+        "address": "г. Екатеринбург, дом B-00032",
+        "lat": 56.783801,
+        "lon": 60.504713,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00033",
+        "address": "г. Екатеринбург, дом B-00033",
+        "lat": 56.788183,
+        "lon": 60.507661,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0012",
+    "node_type": "CMTS",
+    "technology": "DOCSIS",
+    "name": "CMTS узел 12",
+    "address": "г. Екатеринбург",
+    "lat": 56.872289,
+    "lon": 60.602267,
+    "buildings": [
+      {
+        "building_id": "B-00034",
+        "address": "г. Екатеринбург, дом B-00034",
+        "lat": 56.874403,
+        "lon": 60.593347,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00035",
+        "address": "г. Екатеринбург, дом B-00035",
+        "lat": 56.877083,
+        "lon": 60.607866,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00036",
+        "address": "г. Екатеринбург, дом B-00036",
+        "lat": 56.876783,
+        "lon": 60.608225,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0013",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 13",
+    "address": "г. Екатеринбург",
+    "lat": 56.819816,
+    "lon": 60.462203,
+    "buildings": [
+      {
+        "building_id": "B-00037",
+        "address": "г. Екатеринбург, дом B-00037",
+        "lat": 56.814563,
+        "lon": 60.45355,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00038",
+        "address": "г. Екатеринбург, дом B-00038",
+        "lat": 56.816321,
+        "lon": 60.455449,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00039",
+        "address": "г. Екатеринбург, дом B-00039",
+        "lat": 56.817897,
+        "lon": 60.453254,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0014",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 14",
+    "address": "г. Екатеринбург",
+    "lat": 56.775228,
+    "lon": 60.461498,
+    "buildings": [
+      {
+        "building_id": "B-00040",
+        "address": "г. Екатеринбург, дом B-00040",
+        "lat": 56.769534,
+        "lon": 60.468985,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00041",
+        "address": "г. Екатеринбург, дом B-00041",
+        "lat": 56.776597,
+        "lon": 60.454469,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00042",
+        "address": "г. Екатеринбург, дом B-00042",
+        "lat": 56.772255,
+        "lon": 60.458446,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0015",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 15",
+    "address": "г. Екатеринбург",
+    "lat": 56.770112,
+    "lon": 60.715639,
+    "buildings": [
+      {
+        "building_id": "B-00043",
+        "address": "г. Екатеринбург, дом B-00043",
+        "lat": 56.769703,
+        "lon": 60.715315,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00044",
+        "address": "г. Екатеринбург, дом B-00044",
+        "lat": 56.765142,
+        "lon": 60.707682,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      },
+      {
+        "building_id": "B-00045",
+        "address": "г. Екатеринбург, дом B-00045",
+        "lat": 56.768223,
+        "lon": 60.710934,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-02"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0016",
+    "node_type": "SWITCH",
+    "technology": "FTTB",
+    "name": "SWITCH узел 16",
+    "address": "г. Екатеринбург",
+    "lat": 56.777059,
+    "lon": 60.434853,
+    "buildings": [
+      {
+        "building_id": "B-00046",
+        "address": "г. Екатеринбург, дом B-00046",
+        "lat": 56.777398,
+        "lon": 60.427785,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00047",
+        "address": "г. Екатеринбург, дом B-00047",
+        "lat": 56.777577,
+        "lon": 60.425393,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00048",
+        "address": "г. Екатеринбург, дом B-00048",
+        "lat": 56.777396,
+        "lon": 60.444423,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0017",
+    "node_type": "DSLAM",
+    "technology": "XDSL",
+    "name": "DSLAM узел 17",
+    "address": "г. Екатеринбург",
+    "lat": 56.873315,
+    "lon": 60.515779,
+    "buildings": [
+      {
+        "building_id": "B-00049",
+        "address": "г. Екатеринбург, дом B-00049",
+        "lat": 56.86932,
+        "lon": 60.521218,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-05"
+      },
+      {
+        "building_id": "B-00050",
+        "address": "г. Екатеринбург, дом B-00050",
+        "lat": 56.873707,
+        "lon": 60.52136,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-05"
+      },
+      {
+        "building_id": "B-00051",
+        "address": "г. Екатеринбург, дом B-00051",
+        "lat": 56.871271,
+        "lon": 60.51024,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-05"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0018",
+    "node_type": "SWITCH",
+    "technology": "FTTB",
+    "name": "SWITCH узел 18",
+    "address": "г. Екатеринбург",
+    "lat": 56.925287,
+    "lon": 60.716894,
+    "buildings": [
+      {
+        "building_id": "B-00052",
+        "address": "г. Екатеринбург, дом B-00052",
+        "lat": 56.929107,
+        "lon": 60.721691,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00053",
+        "address": "г. Екатеринбург, дом B-00053",
+        "lat": 56.922008,
+        "lon": 60.717247,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      },
+      {
+        "building_id": "B-00054",
+        "address": "г. Екатеринбург, дом B-00054",
+        "lat": 56.923553,
+        "lon": 60.707473,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-01"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0019",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 19",
+    "address": "г. Екатеринбург",
+    "lat": 56.798295,
+    "lon": 60.515119,
+    "buildings": [
+      {
+        "building_id": "B-00055",
+        "address": "г. Екатеринбург, дом B-00055",
+        "lat": 56.803774,
+        "lon": 60.514064,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00056",
+        "address": "г. Екатеринбург, дом B-00056",
+        "lat": 56.80354,
+        "lon": 60.52488,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00057",
+        "address": "г. Екатеринбург, дом B-00057",
+        "lat": 56.803755,
+        "lon": 60.512412,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  },
+  {
+    "access_node_id": "AN-0020",
+    "node_type": "OLT",
+    "technology": "PON",
+    "name": "OLT узел 20",
+    "address": "г. Екатеринбург",
+    "lat": 56.788832,
+    "lon": 60.49388,
+    "buildings": [
+      {
+        "building_id": "B-00058",
+        "address": "г. Екатеринбург, дом B-00058",
+        "lat": 56.790321,
+        "lon": 60.501886,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00059",
+        "address": "г. Екатеринбург, дом B-00059",
+        "lat": 56.792917,
+        "lon": 60.49347,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      },
+      {
+        "building_id": "B-00060",
+        "address": "г. Екатеринбург, дом B-00060",
+        "lat": 56.790668,
+        "lon": 60.499873,
+        "building_type": "MKD",
+        "overhead_line": false,
+        "zone_service_center_id": "SC-03"
+      }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+# Запуск: cp .env.example .env && docker compose up --build
+# Оркестратор ждёт 200 на GET /api/v1/health не дольше 120 с после старта.
+# Линии маршрутов по дорогам на карте (необязательно): docker compose --profile graphhopper up -d
+# (первый запуск скачивает OSM УрФО ~380 МБ и строит граф несколько минут). Альтернатива — OSRM:
+# docker compose --profile osrm up, ADO_OSRM_URL=http://osrm:5000, ADO_GRAPHHOPPER_URL= (пусто).
+services:
+  app:
+    build: .
+    ports:
+      - "${ADO_PORT:-8080}:8080"
+    env_file: .env
+    environment:
+      ADO_PORT: "8080"
+      ADO_DATABASE_URL: "postgresql+psycopg://${POSTGRES_USER:-ado}:${POSTGRES_PASSWORD:-ado}@db:5432/${POSTGRES_DB:-ado}"
+      ADO_GRAPHHOPPER_URL: "${ADO_GRAPHHOPPER_URL-http://graphhopper:8989}"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/api/v1/health', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 24
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 2g
+    restart: unless-stopped
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-ado}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ado}
+      POSTGRES_DB: ${POSTGRES_DB:-ado}
+    volumes:
+      - ado-pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-ado} -d ${POSTGRES_DB:-ado}"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  # --- необязательно: GraphHopper по OpenStreetMap УрФО (линии маршрутов по дорогам, D37) ---
+  graphhopper:
+    profiles: ["graphhopper"]
+    build: ./docker/graphhopper
+    image: ado-graphhopper:11.0
+    environment:
+      GH_JAVA_OPTS: "${GH_JAVA_OPTS:--Xmx3g -Xms1g}"
+      GH_OSM_URL: "${GH_OSM_URL:-https://download.geofabrik.de/russia/ural-fed-district-latest.osm.pbf}"
+    volumes:
+      - ./data/osm:/data/osm
+      - gh-cache:/data/graph-cache
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:8989/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30m
+    ports:
+      - "8989:8989"
+    restart: unless-stopped
+
+  # --- необязательно: OSRM по OpenStreetMap УрФО (данные: data/osm/ural-fed-district-latest.osm.pbf) ---
+  osrm-prepare:
+    profiles: ["osrm"]
+    image: ghcr.io/project-osrm/osrm-backend:v5.27.1
+    volumes:
+      - ./data/osm:/data
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - >-
+        test -f /data/ural-fed-district-latest.osrm.mldgr ||
+        (osrm-extract -p /opt/car.lua /data/ural-fed-district-latest.osm.pbf &&
+         osrm-partition /data/ural-fed-district-latest.osrm &&
+         osrm-customize /data/ural-fed-district-latest.osrm)
+
+  osrm:
+    profiles: ["osrm"]
+    image: ghcr.io/project-osrm/osrm-backend:v5.27.1
+    volumes:
+      - ./data/osm:/data
+    command: ["osrm-routed", "--algorithm", "mld", "--max-table-size", "1000", "/data/ural-fed-district-latest.osrm"]
+    depends_on:
+      osrm-prepare:
+        condition: service_completed_successfully
+    ports:
+      - "5000:5000"
+
+volumes:
+  ado-pg:
+  gh-cache:

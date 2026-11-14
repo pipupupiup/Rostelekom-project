@@ -1,0 +1,9 @@
+code,name,profiles,duration_min,max_start_delay_min,deadline_kind,deadline_value,repeat_deadline_value,pgp_relevant
+INST_PON_MKD,"Инсталляция ШПД/IPTV, МКД, PON",INSTALL,90,10,WORKING_DAYS,3,,false
+INST_FTTB_MKD,"Инсталляция ШПД/IPTV, МКД, FTTB",INSTALL,60,10,WORKING_DAYS,3,,false
+INST_PRIVATE_VLS,"Инсталляция, частный сектор, с ВЛС",INSTALL,180,10,WORKING_DAYS,5,,false
+ADD_SERVICE,"Доподключение услуги (IPTV, Wi-Fi-роутер)",INSTALL,40,10,SLOT,,,false
+SURVEY_PRIVATE,Обследование (частный сектор),INSTALL|LTP3,45,,WORKING_DAYS,2,,false
+REPAIR,Устранение неисправности (обращение абонента),LTP3,60,,HOURS,24,12,true
+DEGRADATION,"Устранение деградации, выявленной системой мониторинга качества",LTP3,45,,HOURS,48,,true
+DISMANTLE,Демонтаж АО,LTP3,30,,WORKING_DAYS,5,,false

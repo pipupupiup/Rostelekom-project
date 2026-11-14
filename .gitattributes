@@ -1,0 +1,10 @@
+# Единые окончания строк. Скрипты для контейнеров — только LF: с CRLF (Windows) они не запустятся
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf
+docker/** text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.png binary
+*.pbf binary
